@@ -1,4 +1,3 @@
-import { Image } from "../Image";
 import { buttonProps } from "./button.types";
 
 export const Button = ({

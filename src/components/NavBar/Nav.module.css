@@ -1,0 +1,162 @@
+.navRight Link {
+  cursor: pointer;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  background: #000000;
+  letter-spacing: 0.02rem;
+  text-transform: uppercase;
+}
+
+.mainNav {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.mainNav span {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.hamburger {
+  border: 0;
+  height: 40px;
+  width: 40px;
+  padding-left: 8px;
+  border-radius: 50%;
+  background-color: #46b5f3;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  display: none;
+}
+
+.hamburger:hover {
+  background-color: #46b5f3;
+}
+
+.navigation {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.navigationMenu {
+  margin-left: auto;
+}
+
+.navigationMenu ul {
+  display: flex;
+
+  padding: 0;
+}
+.navigationMenu li {
+  list-style-type: none;
+}
+
+.navigationMenu li Link {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+
+/* .navigationMenu .open ul {
+  display: block;
+} */
+
+@media screen and (max-width: 768px) {
+  /* .navigation Link {
+    position: fixed
+  } */
+
+  .navigationMenu ul {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 0;
+    height: calc(100vh - 400px);
+    background-color: white;
+    border-top: 1px solid black;
+  }
+
+  .navigation .open {
+    /* width: 100%; */
+    position: fixed;
+    overflow: hidden;
+  }
+
+  .open ul {
+    display: block;
+    justify-content: center;
+    position: fixed;
+    height: 100vh;
+    overflow: auto;
+    top: 0;
+  }
+
+  .navigationMenu li {
+    margin: 0;
+    padding-bottom: 6px;
+  }
+
+  /* .navigationMenu li Link {
+    color: black;
+    width: 100%;
+  } */
+
+  /* .navigationMenu li:hover {
+    background-color: blue;
+  } */
+
+  .hamburger {
+    display: block;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    margin-top: 30px;
+    overflow: hidden;
+    /* padding-top: 25px; */
+  }
+}
+
+/* .Navbar {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+} */
+
+/* .Navbar; */
+.cartWrapper {
+  position: relative;
+  /* border: 1px solid red; */
+  padding: 5px;
+}
+
+.cartAdd {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: #46b5f3;
+  color: #fff;
+  height: 17px;
+  width: 17px;
+  border-radius: 50%;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
