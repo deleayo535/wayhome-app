@@ -1,0 +1,27 @@
+.benefitWrap {
+  background-color: rgb(2, 56, 65);
+  color: rgb(255, 255, 255);
+}
+
+.benefitH1 {
+  font-family: Copernicus, serif;
+  font-size: 2.95rem;
+  line-height: 1.2;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.benefitH2 {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  max-width: 624px;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.benefitP {
+  font-family: ModernEra, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
