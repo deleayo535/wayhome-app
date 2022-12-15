@@ -3,7 +3,7 @@ import classes from "./about.module.css";
 import { PageTemplate } from "../../template/PageTemplate";
 import { Image } from "../../atoms";
 
-export default function () {
+export default function AboutPage() {
   return (
     <PageTemplate>
       <React.Fragment>
