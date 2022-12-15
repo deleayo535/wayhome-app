@@ -1,0 +1,38 @@
+.appH {
+  font-family: Copernicus, serif;
+  font-size: 5.25rem;
+  line-height: 1.2;
+  letter-spacing: -0.02rem;
+  font-weight: 500;
+  color: rgb(51, 51, 49);
+}
+
+.appTxt {
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin: 1.5rem auto auto;
+  color: rgb(80, 79, 76);
+}
+
+.signWrap {
+  background-color: rgb(234, 232, 224);
+}
+
+.signH {
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.signH2 {
+  color: rgb(51, 51, 49);
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+
+.signLi {
+  font-size: 20px;
+  line-height: 1.4;
+  color: rgb(51, 51, 49);
+  list-style: outside disc;
+}

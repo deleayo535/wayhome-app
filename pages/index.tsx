@@ -1,5 +1,5 @@
 import React from "react";
-import LandingPage from "../src/pages/landingPage";
+import LandingPage from "../src/components/pages/LandingPage";
 
 export default function Home() {
   return (

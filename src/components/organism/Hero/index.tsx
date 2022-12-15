@@ -14,9 +14,20 @@ export const Hero = () => {
             Buy the same type of home you can comfortably afford to rent. No
             debt. Sign up to see homes.
           </div>
-          <Button text="see home" className={`${classes.bt}`} />
+          <Button
+            text="see home"
+            style={
+              {
+                // padding: "14px",
+                // fontSize: "0px",
+              }
+            }
+          />
         </div>
         <div className="m-8"></div>
+      </div>
+      <div className={`mt-20 ${classes.feature}`}>
+        <div></div>
       </div>
       <div className={`w-3/4 m-8 pt-8 ${classes.heroH4}`}>
         Buy a home worth up to 10x your income

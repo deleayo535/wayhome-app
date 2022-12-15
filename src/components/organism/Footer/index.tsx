@@ -1,10 +1,10 @@
 import classes from "./footer.module.css";
 
-export function Footer() {
+export const Footer = () => {
   return (
     <div className={`${classes.footerWrap}`}>
       <div>
-        <div className={`space-y-4 ${classes.footerHead}`}>
+        <div className={`space-y-4 mx-12 ${classes.footerHead}`}>
           <div
             className={`flex pt-10 justify-center space-x-2 ${classes.footerTxt}`}
           >
@@ -14,7 +14,7 @@ export function Footer() {
             <p> chat to us through Intercom</p>
           </div>
           <div
-            className={`flex space-x-4 pb-6 justify-center ${classes.footerTxt}`}
+            className={`flex space-x-4 mx-8 pb-6 justify-center ${classes.footerTxt}`}
           >
             <p>Careers</p>
             <p>Press</p>
@@ -25,7 +25,7 @@ export function Footer() {
             <p>Regulatory Information</p>
           </div>
         </div>
-        <div className="flex px-10 py-8 space-x-6">
+        <div className="flex px-12 py-8 space-x-6">
           <div className="w-2/4 space-y-3 whitespace-normal">
             <p>
               Unmortgage Ltd (registered in England and Wales, Company No.
@@ -71,4 +71,4 @@ export function Footer() {
       </div>
     </div>
   );
-}
+};

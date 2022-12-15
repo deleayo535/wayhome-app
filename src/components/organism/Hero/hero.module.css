@@ -32,3 +32,8 @@
   font-weight: 350;
   margin-bottom: 1.5rem;
 }
+
+.feature {
+  background-color: rgb(199, 219, 221);
+  height: 65px;
+}
