@@ -1,5 +1,6 @@
+import { Image } from "../Image";
 import { buttonProps } from "./button.types";
-
+import classes from "./button.module.css";
 export const Button = ({
   className,
   style,
@@ -9,11 +10,11 @@ export const Button = ({
 }: buttonProps) => {
   return (
     <button
-      className={`px-6 text-xs py-2 bg-lightBlue rounded-full flex justify-center items-center ${
-        className || ""
-      }`}
+      className={`${classes.button || className || ""}`}
       onClick={onclick}
       style={style}
-    ></button>
+    >
+      <span className="text-base font-normal">{text}</span>
+    </button>
   );
 };

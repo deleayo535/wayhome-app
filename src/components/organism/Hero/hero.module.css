@@ -1,0 +1,34 @@
+.bt {
+  width: 200px;
+}
+
+.bt span {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.heroH2 {
+  font-family: Copernicus, serif;
+  font-size: 3.8rem;
+  line-height: 1;
+  color: rgb(51, 51, 49);
+  font-weight: 350;
+  margin-bottom: 1.5rem;
+}
+
+.heroH3 {
+  font-family: ModernEra, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: rgb(51, 51, 49);
+  font-weight: 500;
+}
+
+.heroH4 {
+  font-family: Copernicus, serif;
+  font-size: 3.2rem;
+  line-height: 1;
+  color: rgb(51, 51, 49);
+  font-weight: 350;
+  margin-bottom: 1.5rem;
+}

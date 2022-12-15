@@ -1,0 +1,62 @@
+.budget {
+  background-color: rgb(51, 51, 49);
+  display: inline-block;
+  padding: 1.5rem;
+  border-radius: 4px;
+  width: 300px;
+  height: 120px;
+}
+
+.budget2 {
+  background-color: rgb(245, 244, 240);
+  display: inline-block;
+  padding: 1.5rem;
+  border-radius: 4px;
+  width: 300px;
+  height: 120px;
+}
+
+.budgetH {
+  /* display: block; */
+  color: rgb(255, 255, 255);
+  /* margin-bottom: 0.5rem; */
+  font-size: 1.55rem;
+  line-height: 1;
+  padding-top: 0;
+}
+
+.budgetP {
+  font-family: Copernicus, serif;
+  font-size: 3.55rem;
+  padding-top: -10px;
+  /* display: block; */
+  font-weight: 600;
+  line-height: 1;
+  color: rgb(255, 255, 255);
+}
+.budgetH2 {
+  /* display: block; */
+  color: rgb(51, 51, 49);
+  /* margin-bottom: 0.5rem; */
+  font-size: 1.55rem;
+  line-height: 1;
+  padding-top: 0;
+}
+
+.budgetP2 {
+  font-family: Copernicus, serif;
+  font-size: 3.55rem;
+  padding-top: -10px;
+  /* display: block; */
+  font-weight: 600;
+  line-height: 1;
+  color: rgb(51, 51, 49);
+}
+
+.budgetH3 {
+  font-family: ModernEra, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: rgb(51, 51, 49);
+  font-weight: 500;
+}
