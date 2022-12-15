@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./about.module.css";
 import { PageTemplate } from "../../template/PageTemplate";
-import { Button, Image } from "../../atoms";
+import { Image } from "../../atoms";
 
 export default function () {
   return (
@@ -14,7 +14,7 @@ export default function () {
             >
               Hope for aspiring homeowners
             </div>
-            <div className={`w-3/5 ${classes.aboutTxt}`}>
+            <div className={`w-3/5 text-center ${classes.aboutTxt}`}>
               We believe if you can afford to rent it, you can afford to
               gradually buy it.
             </div>
@@ -23,8 +23,8 @@ export default function () {
         <div className={`${classes.about}`}>
           <div className="flex py-12 justify-between space-x-4">
             <div className="w-3/5 mt-10 ml-8">
-              <div className={`${classes.aboutTxt}`}>
-                <div className={`${classes.aboutH1}`}> Why we exist</div>
+              <div className={`${classes.aboutTxt2}`}>
+                <div className={`${classes.aboutH1}`}>Why we exist</div>
                 <p className={`pb-6 ${classes.aboutP1}`}>
                   We want to help aspiring homeowners get onto the property
                   ladder.
@@ -52,11 +52,11 @@ export default function () {
             </div>
           </div>
         </div>
-        <div className={``}>
+        <div>
           <div className="flex py-12 justify-between space-x-4">
             <div className="w-3/5 mt-10 ml-8">
               <div className={`${classes.aboutTxt}`}>
-                <div className={`${classes.aboutSec}`}> Who are we?</div>
+                <div className={`${classes.aboutSec}`}>Who are we?</div>
                 <p className={`pb-6 ${classes.aboutPWrap2}`}>
                   We believe we can unknot the deep-rooted problems that plague
                   homeownership.
@@ -72,9 +72,9 @@ export default function () {
                 </p>
                 <p className={`text-lg pb-6 ${classes.aboutPWrap2}`}>
                   In July 2019 we announced a partnership with Allianz Global
-                  Investors (AllianzGI), part of the Allianz Group. Allianz
-                  Group are one of the worlds largest financial service
-                  providers with over 125 years experience.
+                  Investors, part of the Allianz Group. Allianz Group are one of
+                  the worlds largest financial service providers with over 125
+                  years experience.
                 </p>
                 <p className={`text-lg pb-12 ${classes.aboutPWrap2}`}>
                   Find out more about our partnership with AllianzGI
@@ -82,7 +82,7 @@ export default function () {
                 <p className={`text-lg pb-12 ${classes.aboutPWrap2}`}>
                   We have also been raising enough money to make sure we have
                   the time, and the team, to help you. In August 2018, we raised
-                  £10 million from investors who have previously invested in
+                  ₦10 million from investors who have previously invested in
                   Lagos.
                 </p>
               </div>
