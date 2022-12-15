@@ -12,7 +12,7 @@ export function Section({
 }: SectionProps) {
   return (
     <div className={`${classes.section}`}>
-      <div className="flex mx-28 m-18">
+      <div className="flex mx-32 m-auto -space-x-">
         <div className={` ${imageFirst ? "order-1" : "order-last"} `}>
           {img && <Image src={img} width="360px" height="" />}
         </div>

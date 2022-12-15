@@ -5,6 +5,8 @@ import { Works } from "../../components/organism/Works";
 import { Meet } from "../../components/organism/Meet";
 import { Buy } from "../../components/organism/Buy";
 import { Benefit } from "../../components/organism/Benefits";
+import { Restricton } from "../../components/organism/Restrictions";
+import { Footer } from "../../components/organism/Footer/indes";
 
 export default function LandingPage() {
   return (
@@ -15,6 +17,8 @@ export default function LandingPage() {
       <Meet />
       <Buy />
       <Benefit />
+      <Restricton />
+      <Footer />
     </div>
   );
 }

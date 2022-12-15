@@ -39,7 +39,14 @@ export function Works() {
       </div>
       <div className="pt-20">
         <div className="flex justify-center pt-18">
-          <Button text="More on how it works" />
+          <Button
+            style={{
+              color: "rgb(2, 90, 101)",
+              background: "rgb(222, 234, 235)",
+              border: "1px solid rgb(2, 90, 101)",
+            }}
+            text="More on how it works"
+          />
         </div>
       </div>
     </div>

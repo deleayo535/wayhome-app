@@ -20,8 +20,16 @@ export const Budget = () => {
         *Based on UK average first time buyer loan to income multiple May 2021
         (UK Finance).
       </div>
-      <div className="pt-10">
-        <Button text="Start an application" />
+      <div className="text-2xl pt-10">
+        <Button
+          style={{
+            // fontSize: "20px",
+            color: "rgb(2, 90, 101)",
+            background: "rgb(222, 234, 235)",
+            border: "1px solid rgb(2, 90, 101)",
+          }}
+          text="Start an application"
+        />
       </div>
     </div>
   );

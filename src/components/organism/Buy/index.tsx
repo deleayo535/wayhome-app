@@ -18,7 +18,14 @@ export function Buy() {
           <p className={`text-lg pb- ${classes.buyP}`}>
             Find out which locations we're helping people buy homes in first.
           </p>
-          <Button text="See where we buy" />
+          <Button
+            style={{
+              color: "rgb(2, 90, 101)",
+              background: "rgb(222, 234, 235)",
+              border: "1px solid rgb(2, 90, 101)",
+            }}
+            text="See where we buy"
+          />
         </div>
       </div>
     </div>

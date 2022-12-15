@@ -38,7 +38,14 @@ export function Meet() {
       </div>
       <div className="py-10">
         <div className="flex ml-8">
-          <Button text="Start an application" />
+          <Button
+            style={{
+              color: "rgb(2, 90, 101)",
+              background: "rgb(222, 234, 235)",
+              border: "1px solid rgb(2, 90, 101)",
+            }}
+            text="Start an application"
+          />
         </div>
       </div>
     </div>
