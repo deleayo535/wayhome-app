@@ -2,7 +2,7 @@ import { Image } from "../../atoms/Image";
 import classes from "./Nav.module.css";
 import { Button } from "../../atoms/Button";
 import Link from "next/link";
-import { APPLICATION, HOME } from "../../../utils/routes";
+import { ABOUT, APPLICATION, HOME } from "../../../utils/routes";
 
 export const NavBar = () => {
   return (
@@ -22,6 +22,10 @@ export const NavBar = () => {
         <Link href="">
           <div className="hover:underline">More</div>
         </Link>
+        <Link href={ABOUT}>
+          <div className="hover:underline">About Us</div>
+        </Link>
+
         <Link href="">
           <div className="hover:underline">Log in</div>
         </Link>

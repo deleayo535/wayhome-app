@@ -30,16 +30,16 @@ export const Footer = () => {
             <p>
               Unmortgage Ltd (registered in England and Wales, Company No.
               10395239) and its subsidiaries comprise the Unmortgage Group. Our
-              registered office is at 1 Poultry, London, EC2R 8EJ.
+              registered office is at 1 Poultry, Lagos.
             </p>
             <p>Wayhome is a trading name of the Unmortgage Group.</p>
             <p>
               Unmortgage Arrangers Ltd, a subsidiary of Unmortgage Ltd
-              (registered in England and Wales, Company No. 11842567), is
-              authorised and regulated by the Financial Conduct Authority (Firm
-              Reference Number 838366) for arranging and administering insurance
-              policies only and is also registered as an EMD Agent of Modulr FS
-              Limited (Firm Reference Number 902968).
+              (registered in Nigeria, Company No. 11842567), is authorised and
+              regulated by the Financial Conduct Authority (Firm Reference
+              Number 8366) for arranging and administering insurance policies
+              only and is also registered as an EMD Agent of Modulr FS Limited
+              (Firm Reference Number 9968).
             </p>
             <p>
               No other aspect of the Unmortgage Groups business falls within the
@@ -57,14 +57,14 @@ export const Footer = () => {
               our Regulatory Information Page.
             </p>
             <p>
-              Wayhome Property Management Ltd, a subsidiary of Unmortgage Ltd,
-              is a member of The Property Redress Scheme (membership number
+              Byloft Property Management Ltd, a subsidiary of Unmortgage Ltd, is
+              a member of The Property Redress Scheme (membership number
               PRS025713), which covers activities in relation to the purchase of
               the home, the setting up and management of tenanc
             </p>
             <p>
-              Wayhome Nominees Ltd (registered in England and Wales, Company No.
-              13085562) is a subsidiary of Unmortgage Ltd.
+              Byloft Nominees Ltd (registered in Lagos, Company No. 1362) is a
+              subsidiary of Byloft Ltd.
             </p>
           </div>
         </div>
