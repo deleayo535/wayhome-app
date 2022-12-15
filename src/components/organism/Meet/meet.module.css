@@ -1,0 +1,22 @@
+.meet {
+  background-color: rgb(2, 79, 89);
+}
+
+.meetTxt {
+  color: rgb(255, 255, 255);
+}
+
+.meetH1 {
+  font-family: Copernicus, serif;
+  font-size: 2.95rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  line-height: 1.4;
+}
+
+.meetP1 {
+  font-family: ModernEra, sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  font-weight: 700;
+}
