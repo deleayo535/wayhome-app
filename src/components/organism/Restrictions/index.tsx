@@ -67,7 +67,7 @@ export function Restricton() {
       <div className={`${classes.homes}`}>
         <div className="px-12 py-20">
           <div className={`pb-4 ${classes.homesTxt}`}>
-            See if we're right for you
+            See if we are right for you
           </div>
           <div>
             <Button
