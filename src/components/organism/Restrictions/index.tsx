@@ -40,8 +40,8 @@ export function Restricton() {
                   No fixer-uppers
                 </h2>
                 <p className={`${classes.restrictionP}`}>
-                  We only show you homes that don’t need structural work. We
-                  don’t want you living in a building site.
+                  We only show you homes that dont need structural work. We dont
+                  want you living in a building site.
                 </p>
               </div>
               <div className="w-1/4">

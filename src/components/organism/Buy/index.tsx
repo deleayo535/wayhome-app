@@ -16,7 +16,7 @@ export function Buy() {
         <div className="m-auto pl-8 w-9/12">
           <div className={`text-2xl ${classes.buyH1}`}>Where we buy homes</div>
           <p className={`text-lg pb- ${classes.buyP}`}>
-            Find out which locations we're helping people buy homes in first.
+            Find out which locations we are helping people buy homes in first.
           </p>
           <Button
             style={{

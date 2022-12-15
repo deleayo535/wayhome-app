@@ -42,10 +42,10 @@ export function Footer() {
               Limited (Firm Reference Number 902968).
             </p>
             <p>
-              No other aspect of the Unmortgage Group’s business falls within
-              the scope of financial services regulation. This means you do not
-              have any of the protections under the FCA rules and do not have
-              any cover from the Financial Ombudsman Scheme or the Financial
+              No other aspect of the Unmortgage Groups business falls within the
+              scope of financial services regulation. This means you do not have
+              any of the protections under the FCA rules and do not have any
+              cover from the Financial Ombudsman Scheme or the Financial
               Services Compensation Scheme in relation to your interest in an
               LLP. Customers should ensure they understand what this means
               before they use the Wayhome product.
