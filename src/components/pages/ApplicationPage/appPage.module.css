@@ -16,7 +16,8 @@
 }
 
 .signWrap {
-  background-color: rgb(234, 232, 224);
+  /* background-color: rgb(234, 232, 224); */
+  background-color: rgb(245, 244, 240);
 }
 
 .signH {
@@ -35,4 +36,18 @@
   line-height: 1.4;
   color: rgb(51, 51, 49);
   list-style: outside disc;
+}
+
+.qualified {
+  background-color: rgb(234, 232, 224);
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+}
+
+.cardH {
+  border-radius: 0.25rem 0.25rem 0px 0px;
+  background-color: rgb(2, 90, 101);
+  height: 0.25rem;
 }
