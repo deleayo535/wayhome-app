@@ -13,17 +13,17 @@ export function Meet() {
               Before we helped The Payne family buy their dream home, they were
               struggling to save enough deposit...
             </p>
-            <p className="text-lg pb-6">
+            <p className="text-sm pb-6">
               “For anyone who has good credit, reasonable household income but
               not a big enough deposit, this is the perfect route to getting on
               the ladder..
             </p>
-            <p className="text-lg pb-6">
+            <p className="text-sm pb-6">
               It was important for us to own our home and have that sense of
               security, and we treat our staircasing payments just as we would a
               mortgage.”
             </p>{" "}
-            <p className="text-lg underline">
+            <p className="text-sm underline">
               Read more about the Payne family
             </p>
           </div>

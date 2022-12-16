@@ -116,7 +116,7 @@ export default function SuitabilityPage() {
                 Your phone number
               </div>
               <div className="text-smmd text-lowblack pb-4">
-                Please make sure it's a NG number eg. +234 8604123123
+                Please make sure its a NG number eg. +234 8604123123
               </div>
               <div className="pb-4">
                 <FormInput className={`${classes.form2}`} placeholder={""} />
