@@ -22,7 +22,7 @@ export default function SignPage() {
             <div>
               <Image
                 src="https://www.wayhome.co.uk/static/media/icon-shelf-kettle.dd6c9928.svg"
-                width="160"
+                width="160px"
                 height=""
               />
             </div>
