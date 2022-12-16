@@ -2,12 +2,12 @@ import { Image } from "../../atoms/Image";
 import classes from "./Nav.module.css";
 import { Button } from "../../atoms/Button";
 import Link from "next/link";
-import { ABOUT, APPLICATION, HOME } from "../../../utils/routes";
+import { ABOUT, APPLICATION, HOME, SIGNUP } from "../../../utils/routes";
 
 export const NavBar = () => {
   return (
     <div
-      className={`flex justify-between items-center mx-8 pt-4 ${classes.navMain}`}
+      className={`flex justify-between items-center mx-8 pt-4 pb-4 ${classes.navMain}`}
     >
       <Link href={HOME}>
         <div className="p-2">
@@ -29,7 +29,9 @@ export const NavBar = () => {
         <Link href="">
           <div className="hover:underline">Log in</div>
         </Link>
-        <Button text="Sign up" className={``} />
+        <Link href={SIGNUP}>
+          <Button text="Sign up" className={``} />
+        </Link>
       </div>
     </div>
   );
