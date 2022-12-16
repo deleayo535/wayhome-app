@@ -1,6 +1,7 @@
-import Checkbox, { CheckboxChangeEvent } from "antd/es/checkbox";
+import { CheckboxChangeEvent } from "antd/es/checkbox";
 import Link from "next/link";
 import React from "react";
+import { Checkbox } from "antd";
 import { SUITABILITY } from "../../../utils/routes";
 import { Button, Image } from "../../atoms";
 import { PageTemplate } from "../../template/PageTemplate";
