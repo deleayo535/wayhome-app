@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./about.module.css";
 import { PageTemplate } from "../../template/PageTemplate";
-import { Image } from "../../atoms";
+import { Button, Image } from "../../atoms";
 
 export default function AboutPage() {
   return (
@@ -89,6 +89,62 @@ export default function AboutPage() {
             </div>
             <div className="w-2/5 mt-10 mr-8">
               <Image src="" width="520px" height="" />
+            </div>
+          </div>
+        </div>
+        <div>
+          <div className="m-10 pb-12">
+            <div className="text-xl text-black">The executive team</div>
+            <div className="flex space-x-8 justify-between">
+              <div className="w-1/3">
+                <div>
+                  <Image src="" width="" height="" />
+                </div>
+                <div>
+                  <p className="text-base text-midblack">Conrad Holmboe</p>
+                  <p className="text-sm text-lowblack">
+                    Chief Investment Officer
+                  </p>
+                </div>
+              </div>
+              <div className="w-1/3">
+                <div>
+                  <Image src="" width="" height="" />
+                </div>
+                <div>
+                  <p className="text-base text-midblack">Hugh Boyle</p>
+                  <p className="text-sm text-lowblack">
+                    Chief Financial Officer & Chief Operating Officer
+                  </p>
+                </div>
+              </div>
+              <div className="w-1/3">
+                <div>
+                  <Image src="" width="" height="" />
+                </div>
+                <div>
+                  <p className="text-base text-midblack">Nigel Purves</p>
+                  <p className="text-sm text-lowblack">CEO & Co-Founder</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={`${classes.abHomes}`}>
+          <div className="px-12 py-20">
+            <div className={`pb-4 ${classes.abHomesTxt}`}>
+              See if we are right for you
+            </div>
+            <div>
+              <Button
+                text="See homes"
+                style={{
+                  color: "rgb(2, 90, 101)",
+                  background: "rgb(222, 234, 235)",
+                  border: "1px solid rgb(2, 90, 101)",
+                }}
+                className={`text-base ${classes.bt}`}
+              />
             </div>
           </div>
         </div>
