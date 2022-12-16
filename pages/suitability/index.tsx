@@ -1,6 +1,6 @@
 import React from "react";
 import SuitabilityPage from "../../src/components/pages/SuitabilityPage";
 
-export default function About() {
+export default function Suitability() {
   return <SuitabilityPage />;
 }

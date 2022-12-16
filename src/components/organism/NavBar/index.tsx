@@ -5,6 +5,7 @@ import Link from "next/link";
 import {
   ABOUT,
   APPLICATION,
+  BLOG,
   ELIGIBILITY,
   HOME,
   SIGNUP,
@@ -98,6 +99,9 @@ export const NavBar = () => {
         </Link>
         <Link href={ABOUT}>
           <div className="hover:underline">About Us</div>
+        </Link>
+        <Link href={BLOG}>
+          <div className="hover:underline">Blog</div>
         </Link>
 
         <Link href={OPEN}>
