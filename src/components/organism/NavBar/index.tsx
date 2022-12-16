@@ -2,7 +2,13 @@ import { Image } from "../../atoms/Image";
 import classes from "./Nav.module.css";
 import { Button } from "../../atoms/Button";
 import Link from "next/link";
-import { ABOUT, APPLICATION, HOME, SIGNUP } from "../../../utils/routes";
+import {
+  ABOUT,
+  APPLICATION,
+  ELIGIBILITY,
+  HOME,
+  SIGNUP,
+} from "../../../utils/routes";
 import LoginModal from "../LoginModal";
 import ReactDOM from "react-dom";
 import { useState } from "react";
@@ -66,11 +72,10 @@ export const NavBar = () => {
     </div>
   );
 
-  const OPEN = "openLogin";
-
-  const openLogin = () => {
+  let openLogin = () => {
     setShown(true);
   };
+  const OPEN = "openLogin";
   return (
     <div
       className={`flex justify-between items-center mx-8 pt-4 pb-4 ${classes.navMain}`}
@@ -87,6 +92,9 @@ export const NavBar = () => {
         </Link>
         <Link href="">
           <div className="hover:underline">More</div>
+        </Link>
+        <Link href={ELIGIBILITY}>
+          <div className="hover:underline">Eligibility</div>
         </Link>
         <Link href={ABOUT}>
           <div className="hover:underline">About Us</div>

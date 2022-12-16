@@ -1,0 +1,14 @@
+.finance {
+  background: rgba(222, 234, 235, 1);
+}
+
+.signLi {
+  font-size: 26px;
+  line-height: 1.4;
+  /* color: rgb(51, 51, 49); */
+  list-style: outside disc;
+}
+
+.eliFoot {
+  background: rgba(254, 252, 247, 1);
+}

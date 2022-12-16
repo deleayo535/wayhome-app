@@ -17,6 +17,12 @@ module.exports = {
       lg: "2.5rem",
       xlg: "2.75rem",
       xl: "3.5rem",
+      xxl: "5rem",
+    },
+
+    fontFamily: {
+      sans: ["copernicus"],
+      reg: ["modern-era-regular"],
     },
 
     colors: {
