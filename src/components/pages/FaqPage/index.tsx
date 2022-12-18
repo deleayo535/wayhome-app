@@ -31,6 +31,12 @@ export default function FaqPage() {
           <FaqCard />
         </div>
       </div>
+      <div className="flex justify-center py-6">
+        <div className="flex flex-col text-grey items-center">
+          <div className="uppercase font-bold text-xl">byloft</div>
+          <div className="text-xsm">we run on Intercom</div>
+        </div>
+      </div>
     </div>
     //   </React.Fragment>
     // </PageTemplate>

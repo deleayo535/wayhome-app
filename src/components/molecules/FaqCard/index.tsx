@@ -32,7 +32,8 @@ export default function FaqCard() {
                 />
               </div>
             </div>
-            <div className="text-xsm text-lowblack">
+
+            <div className="flex flex-col justify-center leading-4 text-xsm text-lowblack">
               <div>15 articles in this collection</div>
               <div>Written by Nacho Campomanes and Bryony Shelton</div>
             </div>
