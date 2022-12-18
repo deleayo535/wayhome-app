@@ -1,5 +1,5 @@
 import React from "react";
-import BlogCard from "../../organism/BlogCard";
+import BlogCard from "../../molecules/BlogCard";
 import { PageTemplate } from "../../template/PageTemplate";
 
 export default function BlogPage() {

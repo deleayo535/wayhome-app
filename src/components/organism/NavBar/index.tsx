@@ -7,6 +7,7 @@ import {
   APPLICATION,
   BLOG,
   ELIGIBILITY,
+  FAQ,
   HOME,
   SIGNUP,
 } from "../../../utils/routes";
@@ -102,6 +103,9 @@ export const NavBar = () => {
         </Link>
         <Link href={BLOG}>
           <div className="hover:underline">Blog</div>
+        </Link>
+        <Link href={FAQ}>
+          <div className="hover:underline">Faqs</div>
         </Link>
 
         <Link href={OPEN}>
