@@ -12,73 +12,22 @@ import {
   SIGNUP,
   WORKS,
 } from "../../../utils/routes";
-import LoginModal from "../LoginModal";
+import { Modal } from "antd";
 import ReactDOM from "react-dom";
 import { useState } from "react";
+import { Dropdown } from "flowbite-react";
 
 export const NavBar = () => {
-  const [shown, setShown] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const modalBody = () => (
-    <div
-      style={{
-        backgroundColor: "#fff",
-        flexDirection: "column",
-        overflow: "auto",
+  const showModal = () => setIsModalOpen(true);
 
-        /* Fixed position */
-        left: "20%",
-        right: "20%",
-        position: "fixed",
-        top: "5%",
-
-        /* Take full size */
-        height: "90%",
-        width: "60%",
-
-        /* Displayed on top of other elements */
-        zIndex: 9999,
-      }}
-    >
-      <div
-        style={{
-          alignItems: "center",
-          backgroundColor: "#000",
-          color: "#fff",
-          display: "flex",
-          padding: ".5rem",
-        }}
-      >
-        <div style={{ marginRight: "auto" }}></div>
-        <button
-          style={{
-            // backgroundColor: "#357edd",
-            border: "none",
-            borderRadius: "4px",
-            color: "black",
-            cursor: "pointer",
-            padding: "8px",
-          }}
-          // onClick={() => setShown(false)}
-        >
-          Close
-        </button>
-      </div>
-      <div
-        style={{
-          flexGrow: 1,
-          overflow: "auto",
-        }}
-      >
-        {shown && ReactDOM.createPortal(modalBody(), document.body)}
-      </div>
-    </div>
-  );
-
-  let openLogin = () => {
-    setShown(true);
+  const handleOk = () => {
+    setIsModalOpen(false);
   };
-  const OPEN = "openLogin";
+  const handleCancel = () => {
+    setIsModalOpen(false);
+  };
   return (
     <div
       className={`flex justify-between items-center mx-8 pt-4 pb-4 ${classes.navMain}`}
@@ -93,28 +42,61 @@ export const NavBar = () => {
         <Link href={APPLICATION}>
           <div className="hover:underline">Application process</div>
         </Link>
-        <Link href="">
-          <div className="hover:underline">More</div>
-        </Link>
-        <Link href={ELIGIBILITY}>
-          <div className="hover:underline">Eligibility</div>
-        </Link>
-        <Link href={ABOUT}>
-          <div className="hover:underline">About Us</div>
-        </Link>
-        <Link href={BLOG}>
-          <div className="hover:underline">Blog</div>
-        </Link>
-        <Link href={FAQ}>
-          <div className="hover:underline">Faqs</div>
-        </Link>
-        <Link href={WORKS}>
-          <div className="hover:underline">How it works</div>
-        </Link>
+        <div className={``}>
+          <Dropdown label="More" inline={true}>
+            <div className={`${classes.more} space-y-2`}>
+              <Dropdown.Item className="border-b-2">
+                <Link href={ELIGIBILITY}>
+                  <div className="hover:underline ">Eligibility</div>
+                </Link>
+              </Dropdown.Item>
+              <Dropdown.Item className="border-b-2">
+                <Link href={ABOUT}>
+                  <div className="hover:underline">About Us</div>
+                </Link>
+              </Dropdown.Item>
+              <Dropdown.Item className="border-b-2">
+                <Link href={BLOG}>
+                  <div className="hover:underline">Blog</div>
+                </Link>
+              </Dropdown.Item>
+              <Dropdown.Item className="border-b-2">
+                <Link href={FAQ}>
+                  <div className="hover:underline">Faqs</div>
+                </Link>
+              </Dropdown.Item>
+              <Dropdown.Item className="">
+                <Link href={WORKS}>
+                  <div className="hover:underline">How it works</div>
+                </Link>
+              </Dropdown.Item>
+            </div>
+          </Dropdown>
+        </div>
 
-        <Link href={OPEN}>
+        <Link href={""} onClick={showModal}>
           <div className="hover:underline">Log in</div>
         </Link>
+
+        {/* <Modal
+          title="Sign in to Byloft"
+          open={isModalOpen}
+          // onOk={handleOk}
+          onCancel={handleCancel}
+        >
+          <div className={`-p-4 ${classes.logInWrap}`}>
+            <div className={` ${classes.logIn}`}>
+              <p className="text-sm p-4">
+                In order to provide you with a better service, we've introduced
+                new security measures. If you've already registered but have yet
+                to create a password, you can create one now by resetting your
+                password via this link.
+              </p>
+            </div>
+            <p>Some contents...</p>
+            <p>Some contents...</p>
+          </div>
+        </Modal> */}
         <Link href={SIGNUP}>
           <Button text="Sign up" className={``} />
         </Link>

@@ -9,3 +9,17 @@
 
   cursor: pointer;
 }
+
+.logInWrap {
+  background: rgb(239, 238, 232);
+}
+
+.logIn {
+  background: rgb(242, 203, 128);
+}
+
+.more {
+  background: white !important;
+  width: 220px;
+  /* border-bottom: 1px solid rgb(2, 90, 101); */
+}

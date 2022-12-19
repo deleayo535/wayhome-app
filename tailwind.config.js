@@ -3,6 +3,7 @@ module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./src/**",
+    "./node_modules/flowbite-react/**/*.js",
     // "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
@@ -37,5 +38,5 @@ module.exports = {
       lowblack: "rgb(108, 107, 103);",
     },
   },
-  plugins: [],
+  plugins: [require("flowbite/plugin")],
 };
