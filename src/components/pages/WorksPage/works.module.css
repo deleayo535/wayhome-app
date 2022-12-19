@@ -1,0 +1,20 @@
+.works {
+  background: rgba(2, 90, 101, 1);
+  color: white;
+}
+
+.worksTxt {
+  color: rgb(255, 255, 255);
+}
+
+.workSec {
+  background: rgba(254, 252, 247, 1);
+}
+
+.workSec2 {
+  background: rgba(222, 234, 235, 1);
+}
+
+.workFoot {
+  background: rgba(254, 252, 247, 1);
+}

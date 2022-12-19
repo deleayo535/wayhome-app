@@ -10,6 +10,7 @@ import {
   FAQ,
   HOME,
   SIGNUP,
+  WORKS,
 } from "../../../utils/routes";
 import LoginModal from "../LoginModal";
 import ReactDOM from "react-dom";
@@ -106,6 +107,9 @@ export const NavBar = () => {
         </Link>
         <Link href={FAQ}>
           <div className="hover:underline">Faqs</div>
+        </Link>
+        <Link href={WORKS}>
+          <div className="hover:underline">How it works</div>
         </Link>
 
         <Link href={OPEN}>
