@@ -115,7 +115,7 @@ export default function SuitabilityPage() {
               <div className="text-smmd max-md:text-sm text-midblack font-bold pb-2">
                 Your phone number
               </div>
-              <div className="text-smmd max-md:text-sm text-lowblack pb-4">
+              <div className="text-smmd max-md:text-sm text-lowblack max-md:pr-6 pb-4">
                 Please make sure its a NG number eg. +234 8604123123
               </div>
               <div className="pb-4">

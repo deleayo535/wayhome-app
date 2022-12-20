@@ -4,17 +4,19 @@ export const Footer = () => {
   return (
     <div className={`${classes.footerWrap}`}>
       <div>
-        <div className={`space-y-4 mx-12 max-md:mx-4 ${classes.footerHead}`}>
-          <div
-            className={`flex text-sm pt-10 justify-center max-md:justify-start max-md:space-x-0 space-x-2 ${classes.footerTxt}`}
-          >
-            <h1 className="max-md:-mr-8">Got any questions? </h1>
-            <p>Check out our FAQs </p>
-            <span>or</span>
-            <p> chat to us through Intercom</p>
+        <div>
+          <div className={`space-y-4 mx-12 max-md:mx-3 ${classes.footerHead}`}>
+            <div
+              className={`flex text-sm pt-10 max-md:pt-6 justify-center max-md:justify-start max-md:space-x-0 space-x-2 ${classes.footerTxt}`}
+            >
+              <h1 className="">Got any questions? </h1>
+              <p>Check out our FAQs </p>
+              <span>or</span>
+              <p> chat to us through Intercom</p>
+            </div>
           </div>
           <div
-            className={`flex max-md:flex-col max-md:mx-0 max-md:space-x-0 max-md:space-y-2 space-x-4 mx-8 pb-6 justify-center ${classes.footerTxt}`}
+            className={`flex max-md:flex-col max-md:mx-4 max-md:space-x-0 max-md:space-y-2 space-x-4 mx-8 pb-6 max-md:pb-4 justify-center ${classes.footerTxt2}`}
           >
             <p>Careers</p>
             <p>Press</p>
@@ -25,7 +27,7 @@ export const Footer = () => {
             <p>Regulatory Information</p>
           </div>
         </div>
-        <div className="flex max-md:flex-col px-12 py-8 max-md:px-4 max-md:space-x-0 space-x-6">
+        <div className="flex max-md:flex-col px-12 py-8 max-md:py-4 max-md:px-4 max-md:space-x-0 space-x-6">
           <div className="w-2/4 max-md:w-full space-y-3 whitespace-normal">
             <p>
               Unmortgage Ltd (registered in England and Wales, Company No.
