@@ -4,13 +4,13 @@ import classes from "./budget.module.css";
 export const Budget = () => {
   return (
     <div className="ml-8 max-md:m-4  max-md:space-y-4">
-      <div className={` ${classes.budget}`}>
+      <div className={`max-md:ml-2 ${classes.budget}`}>
         <div className="m-auto">
           <div className={`${classes.budgetH}`}>Wayhome budget</div>
           <div className={`${classes.budgetP}`}>₦240,000</div>
         </div>
       </div>
-      <div className={`ml-4  max-md:ml-0 ${classes.budget2}`}>
+      <div className={`ml-4 max-md:ml-2 ${classes.budget2}`}>
         <div className="m-auto">
           <div className={`${classes.budgetH2}`}>A bank may lend*</div>
           <div className={`${classes.budgetP2}`}>₦85,000</div>
