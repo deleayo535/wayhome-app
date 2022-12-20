@@ -20,3 +20,20 @@
   line-height: 1.6;
   font-weight: 700;
 }
+
+@media screen and (max-width: 768px) {
+  .meetH1 {
+    font-family: Copernicus, serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    line-height: 1;
+  }
+
+  .meetP1 {
+    font-family: ModernEra, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    font-weight: 700;
+  }
+}

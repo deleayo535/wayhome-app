@@ -4,17 +4,17 @@ export const Footer = () => {
   return (
     <div className={`${classes.footerWrap}`}>
       <div>
-        <div className={`space-y-4 mx-12 ${classes.footerHead}`}>
+        <div className={`space-y-4 mx-12 max-md:mx-4 ${classes.footerHead}`}>
           <div
-            className={`flex pt-10 justify-center space-x-2 ${classes.footerTxt}`}
+            className={`flex text-sm pt-10 justify-center max-md:justify-start max-md:space-x-0 space-x-2 ${classes.footerTxt}`}
           >
-            <h1>Got any questions? </h1>
+            <h1 className="max-md:-mr-8">Got any questions? </h1>
             <p>Check out our FAQs </p>
             <span>or</span>
             <p> chat to us through Intercom</p>
           </div>
           <div
-            className={`flex space-x-4 mx-8 pb-6 justify-center ${classes.footerTxt}`}
+            className={`flex max-md:flex-col max-md:mx-0 max-md:space-x-0 max-md:space-y-2 space-x-4 mx-8 pb-6 justify-center ${classes.footerTxt}`}
           >
             <p>Careers</p>
             <p>Press</p>
@@ -25,8 +25,8 @@ export const Footer = () => {
             <p>Regulatory Information</p>
           </div>
         </div>
-        <div className="flex px-12 py-8 space-x-6">
-          <div className="w-2/4 space-y-3 whitespace-normal">
+        <div className="flex max-md:flex-col px-12 py-8 max-md:px-4 max-md:space-x-0 space-x-6">
+          <div className="w-2/4 max-md:w-full space-y-3 whitespace-normal">
             <p>
               Unmortgage Ltd (registered in England and Wales, Company No.
               10395239) and its subsidiaries comprise the Unmortgage Group. Our
@@ -51,7 +51,7 @@ export const Footer = () => {
               before they use the Wayhome product.
             </p>
           </div>
-          <div className="w-2/4 space-y-3">
+          <div className="w-2/4 max-md:w-full space-y-3">
             <p>
               For full details relating to our regulatory position please see
               our Regulatory Information Page.

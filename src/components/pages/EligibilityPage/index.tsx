@@ -6,16 +6,18 @@ export default function EligibilityPage() {
   return (
     <PageTemplate>
       <React.Fragment>
-        <div className="flex justify-between px-10">
-          <div className="pl-40 pt-20">
-            <div className={`text-xxl text-midblack font-['sans']`}>
+        <div className="flex  max-md:flex-col justify-between px-10">
+          <div className="pl-40 max-md:pl-4 max-md:pt-6 pt-20">
+            <div
+              className={`text-xxl max-md:text-xlg text-midblack font-['sans']`}
+            >
               Eligibility
             </div>
-            <div className={`text-base text-midblack`}>
+            <div className={`text-base max-md:smx text-midblack`}>
               Find out if we can help you today
             </div>
           </div>
-          <div className="pr-20 pt-16">
+          <div className="pr-20 pt-16 max-md:pt-8">
             <Image
               src="https://d9hhrg4mnvzow.cloudfront.net/search.wayhome.co.uk/eligibility/6736928c-wayhome-russian-dolls-3-rgb_1000000000000000000028.png"
               width="300px"
@@ -24,8 +26,8 @@ export default function EligibilityPage() {
           </div>
         </div>
         <div className={`font-['reg'] ${classes.finance}`}>
-          <div className="px-44 py-20">
-            <div className="text-xlg text-midblack pb-8">
+          <div className="px-44 py-20 max-md:px-4 max-md:py-12">
+            <div className="text-xlg text-midblack max-md:pb-4 pb-8">
               Financial criteria
             </div>
             <div className="pl-6">
@@ -37,8 +39,8 @@ export default function EligibilityPage() {
           </div>
         </div>
         <div>
-          <div className="px-44 py-20">
-            <div className="text-xlg font-['reg'] text-midblack pb-8">
+          <div className="px-44 py-20 max-md:px-4 max-md:py-10">
+            <div className="text-xlg font-['reg'] text-midblack max-md:pb-4 pb-8">
               You also need to:
             </div>
             <div className="pl-6">
@@ -60,10 +62,10 @@ export default function EligibilityPage() {
                 </li>
               </ul>
             </div>
-            <div className="text-lg text-midblack font-['reg'] pt-20 pb-8">
+            <div className="text-lg text-midblack font-['reg'] max-md:pt-8 pt-20 max-md:pb-4 pb-8">
               If you will be buying or living with a partner
             </div>
-            <div className="space-y-3 text-base font-['reg'] text-midblack">
+            <div className="space-y-3 text-base max-md:text-smx font-['reg'] text-midblack">
               <div>
                 If you are buying with a partner and/or they will also be living
                 in the home then they need to be on your application and meet
@@ -71,10 +73,10 @@ export default function EligibilityPage() {
               </div>
               <div>To find out more, click here.</div>
             </div>
-            <div className="text-lg text-midblack font-['reg'] pt-20 pb-8">
+            <div className="text-lg text-midblack font-['reg'] max-md:pt-8 pt-20 max-md:pb-4 pb-8">
               If you are not eligible today
             </div>
-            <div className="space-y-3 text-base font-['reg'] text-midblack">
+            <div className="space-y-3 text-base max-md:text-smx font-['reg'] text-midblack">
               <div>
                 Our criteria might change over time which might mean we can
                 include more people.
@@ -91,9 +93,9 @@ export default function EligibilityPage() {
           </div>
         </div>
         <div className={`${classes.eliFoot}`}>
-          <div className="flex justify-between pl-28 pt-20">
+          <div className="flex justify-between max-md:pl-4 pl-28 max-md:pt-10 pt-20">
             <div>
-              <div className="text-lg text-midblack font-['reg'] pb-8">
+              <div className="text-lg text-midblack font-['reg']max-md:pb-4 pb-8">
                 Eligible for our help?
               </div>
               <div>
@@ -109,11 +111,11 @@ export default function EligibilityPage() {
                 Already started?
                 <span className="underline"> Keep your application moving</span>
               </div>
-              <div className="text-sm text-midblack font-['sans'] tracking-wide pt-16 pb-8">
+              <div className="text-sm text-midblack font-['sans'] tracking-wide max-md:pt-0 pt-16 pb-8">
                 *we, us, and our refer to Wayhome and/or their funding partners.
               </div>
             </div>
-            <div className="pt-24">
+            <div className="pt-24 max-md:hidden">
               <Image
                 src={
                   "https://d9hhrg4mnvzow.cloudfront.net/search.wayhome.co.uk/eligibility/ed7667ea-telephone_10cw08r000000000000028.png"

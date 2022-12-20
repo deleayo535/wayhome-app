@@ -3,8 +3,10 @@ import { Section } from "../../molecules/Section";
 import classes from "./works.module.css";
 export function Works() {
   return (
-    <div className={`mt-10 pb-20 ${classes.works}`}>
-      <div className={`flex justify-center pt-20 ${classes.worksHead}`}>
+    <div className={`mt-10 max-md:mt-6 pb-20 ${classes.works}`}>
+      <div
+        className={`flex justify-center max-md:pt-8 max-md:pl-4 pt-20 ${classes.worksHead}`}
+      >
         How Gradual Homeownership works
       </div>
       <div>
@@ -37,8 +39,8 @@ export function Works() {
           imageFirst
         />
       </div>
-      <div className="pt-20">
-        <div className="flex justify-center pt-18">
+      <div className="pt-20 max-md:pt-0">
+        <div className="flex justify-center max-md:justify-start max-md:pl-4 pt-18">
           <Button
             style={{
               color: "rgb(2, 90, 101)",

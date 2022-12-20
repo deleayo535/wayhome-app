@@ -6,11 +6,13 @@ export function Benefit() {
   return (
     <div className="">
       <div className={`${classes.benefitWrap}`}>
-        <div className="py-20 px-10">
-          <div className={`pb-8 ${classes.benefitH1}`}>key benefits</div>
-          <div className="flex justify-between gap-20">
-            <div className="w-1/4">
-              <div className="pb-4">
+        <div className="py-20 px-10 max-md:px-4 max-md:py-12">
+          <div className={`pb-8 max-md:pb-4 ${classes.benefitH1}`}>
+            key benefits
+          </div>
+          <div className="flex max-md:flex-col justify-between max-md:space-y-8 max-md:gap-0 gap-20">
+            <div className="w-1/4 max-md:w-full">
+              <div className="pb-4 ">
                 <Image
                   src="	https://www.wayhome.co.uk/static/media/icon-house.b1849fc9.svg"
                   width="80px"
@@ -23,7 +25,7 @@ export function Benefit() {
                 get a pet. After all, it’s your home.
               </p>
             </div>
-            <div className="w-1/4">
+            <div className="w-1/4 max-md:w-full">
               <div className="pb-4">
                 <Image
                   src="https://www.wayhome.co.uk/static/media/icon-keys.e2b86e52.svg"
@@ -39,7 +41,7 @@ export function Benefit() {
                 leave as long as you pay rent.
               </p>
             </div>
-            <div className="w-1/4">
+            <div className="w-1/4 max-md:w-full">
               <div className="pb-4">
                 <Image
                   src="	https://www.wayhome.co.uk/static/media/icon-scale.e960972a.svg"
@@ -58,47 +60,49 @@ export function Benefit() {
         </div>
       </div>
       <div className={`${classes.faqWrap}`}>
-        <div className="py-24 px-10 ">
+        <div className="py-24 px-10 max-md:px-4 max-md:py-10">
           <div className={`${classes.faqH1}`}>
             <h2>Most frequently asked questions</h2>
           </div>
-          <div className={`${classes.faqP} pb-8 space-y-7`}>
-            <div className="flex space-x-6 items-center">
+          <div
+            className={`${classes.faqP} pb-8 max-md:pb-4 max-md:space-y-3 space-y-7`}
+          >
+            <div className="flex space-x-6 max-md:space-x-2 items-center">
               <Image
                 src="	https://www.wayhome.co.uk/static/media/icon-plus.274654aa.svg"
-                width="24px"
+                width="22px"
                 height=""
               />
               <div>What household income do I need to have?</div>
             </div>
-            <div className="flex space-x-6 items-center">
+            <div className="flex space-x-6 max-md:space-x-2 items-center">
               <Image
                 src="	https://www.wayhome.co.uk/static/media/icon-plus.274654aa.svg"
-                width="24px"
+                width="22px"
                 height=""
               />
               <div>Is this like shared ownership schemes?</div>
             </div>
-            <div className="flex space-x-6 items-center">
+            <div className="flex space-x-6 max-md:space-x-2 items-center">
               <Image
                 src="	https://www.wayhome.co.uk/static/media/icon-plus.274654aa.svg"
-                width="24px"
+                width="22px"
                 height=""
               />
               <p>What are your eligibility criteria?</p>
             </div>
-            <div className="flex space-x-6 items-center">
+            <div className="flex space-x-6 max-md:space-x-2 items-center">
               <Image
                 src="	https://www.wayhome.co.uk/static/media/icon-plus.274654aa.svg"
-                width="24px"
+                width="22px"
                 height=""
               />
               <p>How much deposit do I need?</p>
             </div>
-            <div className="flex space-x-6 items-center">
+            <div className="flex space-x-6 max-md:space-x-2 items-center">
               <Image
                 src="	https://www.wayhome.co.uk/static/media/icon-plus.274654aa.svg"
-                width="24px"
+                width="22px"
                 height=""
               />
               <p>How is Wayhome different from renting?</p>

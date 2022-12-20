@@ -12,3 +12,12 @@
 .eliFoot {
   background: rgba(254, 252, 247, 1);
 }
+
+@media screen and (max-width: 768px) {
+  .signLi {
+    font-size: 22px;
+    line-height: 1.2;
+    /* color: rgb(51, 51, 49); */
+    list-style: outside disc;
+  }
+}

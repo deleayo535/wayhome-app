@@ -7,22 +7,24 @@ export default function ApplicationPage() {
   return (
     <PageTemplate>
       <React.Fragment>
-        <div className="flex justify-center py-16">
-          <div className="space-y-12">
+        <div className="flex justify-center py-16 max-md:py-12">
+          <div className="space-y-12 max-md:space-y-8">
             <div className={`flex justify-center ${classes.appH}`}>
               Application process
             </div>
-            <div className={`w-3/5 ${classes.appTxt}`}>
+            <div
+              className={`w-3/5 max-md:w-full max-md:px-4 ${classes.appTxt}`}
+            >
               Check your application status or refresh yourself on our 4-step
               process
             </div>
           </div>
         </div>
         <div className={`${classes.signWrap}`}>
-          <div className="px-12 py-14">
-            <div className="pb-4">
+          <div className="px-12 py-14 max-md:px-4 max-md:py-8">
+            <div className="pb-4 max-md:pb-2">
               <div className={`${classes.signH} pb-4`}>Sign Up</div>
-              <div className={`${classes.signH2} `}>
+              <div className={`${classes.signH2} max-md:pb-4`}>
                 Before you register, check you are eligible. You need to:
               </div>
             </div>
@@ -41,7 +43,9 @@ export default function ApplicationPage() {
                 <li>not own other properties by the time you buy with us</li>
               </ul>
             </div>
-            <div className={`${classes.signH2} pt-4 pb-4`}>
+            <div
+              className={`${classes.signH2} max-md:pb-6 max-md:pt-6 pt-4 pb-4`}
+            >
               Its also worth double checking we are buying in an area you want
               to live in. Have a look at our locations.
             </div>
@@ -56,11 +60,11 @@ export default function ApplicationPage() {
           </div>
         </div>
         <div className={`${classes.qualified}`}>
-          <div className="p-10">
+          <div className="p-10 max-md:px-4 max-md:py-8">
             <div className="text-base2 font-semibold text-midblack pb-4">
               <span></span>Pre-qualification
             </div>
-            <div className={`w-1/3 rounded-b-lg ${classes.card}`}>
+            <div className={`w-1/3 max-md:w-full rounded-b-lg ${classes.card}`}>
               <div className={`${classes.cardH}`}></div>
               <p className="text-base text-black font-bold py-4 px-4">
                 Do a soft credit check
@@ -75,12 +79,14 @@ export default function ApplicationPage() {
           </div>
         </div>
         <div className={`${classes.signWrap}`}>
-          <div className="p-10">
+          <div className="p-10 max-md:px-4 max-md:py-8">
             <div className="text-base2 font-semibold text-midblack pb-4">
               <span></span>Verification & Viewings
             </div>
-            <div className="flex justify-between space-x-6">
-              <div className={`w-1/3 rounded-b-lg ${classes.card}`}>
+            <div className="flex max-md:flex-col justify-between max-md:space-y-8 max-md:space-x-0 space-x-6">
+              <div
+                className={`w-1/3 max-md:w-full rounded-b-lg ${classes.card}`}
+              >
                 <div className={`${classes.cardH}`}></div>
                 <p className="text-smx text-black font-bold py-4 px-4">
                   Home hunting!
@@ -97,7 +103,9 @@ export default function ApplicationPage() {
                   </p>
                 </p>
               </div>
-              <div className={`w-1/3 rounded-b-lg ${classes.card}`}>
+              <div
+                className={`w-1/3 max-md:w-full rounded-b-lg ${classes.card}`}
+              >
                 <div className={`${classes.cardH}`}></div>
                 <p className="text-smx text-black font-bold py-4 px-4">
                   We will verify your finances
@@ -109,7 +117,9 @@ export default function ApplicationPage() {
                   offer on a home.
                 </p>
               </div>
-              <div className={`w-1/3 rounded-b-lg ${classes.card}`}>
+              <div
+                className={`w-1/3 max-md:w-full rounded-b-lg ${classes.card}`}
+              >
                 <div className={`${classes.cardH}`}></div>
                 <p className="text-smx text-black font-bold py-4 px-4">
                   Go on viewings
@@ -129,11 +139,11 @@ export default function ApplicationPage() {
           </div>
         </div>
         <div className={`${classes.qualified}`}>
-          <div className="p-10">
+          <div className="p-10 max-md:px-4">
             <div className="text-base2 font-semibold text-midblack pb-4">
               <span></span>Making offers
             </div>
-            <div className={`w-1/3 rounded-b-lg ${classes.card}`}>
+            <div className={`w-1/3 max-md:w-full rounded-b-lg ${classes.card}`}>
               <div className={`${classes.cardH}`}></div>
               <p className="text-base text-black font-bold py-4 px-4">
                 Make an offer
@@ -154,17 +164,17 @@ export default function ApplicationPage() {
           </div>
         </div>
         <div className="flex justify-between">
-          <div className="px-12 py-6">
+          <div className="px-12 py-6 max-md:px-8 max-md:py-5">
             <div
               className={`pt-4 text-base2 text-midblack ${classes.abHomesTxt}`}
             >
               Sound good?
             </div>
-            <div className="pt-6">
+            <div className="pt-6 max-md:pt-2 max-md:pb-4">
               <Button text="Sign Up" style={{ width: "140px" }} />
             </div>
           </div>
-          <div className="-mt-80 pr-12">
+          <div className="max-md:hidden -mt-80 pr-12">
             <Image
               src="	https://www.wayhome.co.uk/static/media/icon-house-plant.efcbbdf9.svg"
               width="400"

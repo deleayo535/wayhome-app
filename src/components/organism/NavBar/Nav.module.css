@@ -20,6 +20,8 @@
 
 .more {
   background: white !important;
+  color: rgb(2, 90, 101);
+
   width: 220px;
   /* border-bottom: 1px solid rgb(2, 90, 101); */
 }

@@ -37,3 +37,34 @@
   background-color: rgb(199, 219, 221);
   height: 65px;
 }
+
+@media screen and (max-width: 768px) {
+  .heroH2 {
+    font-family: Copernicus, serif;
+    font-size: 2.4rem;
+    line-height: 1;
+    color: rgb(51, 51, 49);
+    font-weight: 350;
+    margin-bottom: 0.1rem;
+  }
+
+  .heroH3 {
+    font-family: ModernEra, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: rgb(51, 51, 49);
+    font-weight: 600;
+  }
+
+  .heroH4 {
+    font-family: Copernicus, serif;
+    font-size: 2rem;
+    line-height: 1;
+    color: rgb(51, 51, 49);
+    font-weight: 350;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+}

@@ -69,3 +69,6 @@
   color: rgb(51, 51, 49);
   margin-bottom: 1.5rem;
 }
+
+@media screen and (max-width: 768px) {
+}

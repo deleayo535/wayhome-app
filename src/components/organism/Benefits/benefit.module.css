@@ -48,3 +48,25 @@
   font-size: 1.125rem;
   line-height: 1.6;
 }
+
+@media screen and (max-width: 768px) {
+  .faqH1 {
+    font-family: Copernicus, serif;
+    font-size: 2.55rem;
+    line-height: 1.2;
+    color: rgb(51, 51, 49);
+    font-weight: 500;
+    margin-bottom: 1.7rem;
+  }
+
+  .faqP {
+    color: rgb(2, 90, 101);
+    font-size: 1.1rem;
+    line-height: 1.4;
+    max-width: 624px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    position: relative;
+    cursor: pointer;
+  }
+}
