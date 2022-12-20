@@ -11,3 +11,10 @@
 .faqSec {
   background: #f3f5f7;
 }
+
+@media screen and (max-width: 768px) {
+  .faqForm {
+    background-color: #b3d4fc;
+    width: 320px;
+  }
+}

@@ -71,4 +71,51 @@
 }
 
 @media screen and (max-width: 768px) {
+  .aboutH {
+    font-family: Copernicus, serif;
+    font-size: 3rem;
+    line-height: 1;
+    /* letter-spacing: rem; */
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+    color: rgb(51, 51, 49);
+  }
+
+  .aboutTxt {
+    font-size: 1.2rem;
+    line-height: 1.4;
+  }
+
+  .aboutH1 {
+    font-size: 2.45rem;
+    margin-bottom: 0.7rem;
+  }
+
+  .aboutP1 {
+    font-family: Copernicus, serif;
+    font-size: 1.68rem;
+    font-weight: 500;
+    margin-bottom: 0rem;
+    line-height: 1.2;
+  }
+
+  .aboutPWrap {
+    color: rgb(199, 219, 221);
+    font-size: 1.15rem;
+    line-height: 1.4;
+  }
+  .aboutPWrap2 {
+    font-size: 1.15rem;
+    color: rgb(80, 79, 76);
+    line-height: 1.4;
+  }
+
+  .abHomesTxt {
+    font-family: Copernicus, serif;
+    font-size: 2.15rem;
+    line-height: 1;
+    color: rgb(51, 51, 49);
+    margin-bottom: 1rem;
+  }
 }

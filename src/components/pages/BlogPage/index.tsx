@@ -6,12 +6,14 @@ export default function BlogPage() {
   return (
     <PageTemplate>
       <React.Fragment>
-        <div className="p-8 text-midblack font-['sans']">
-          <div className="text-xlg pb-6">Welcome to the Wayhome Blog</div>
-          <div className="text-base2">Latest Articles</div>
+        <div className="p-8 max-md:px-4 text-midblack font-['sans']">
+          <div className="text-xlg max-md:text-lg max-md:leading-10 max-md:pb-2 max-md:w-full pb-6">
+            Welcome to the Wayhome Blog
+          </div>
+          <div className="text-base2 max-md:text-base">Latest Articles</div>
         </div>
-        <div className="p-">
-          <div className="flex justify-between px-4">
+        <div className="">
+          <div className="flex max-md:flex-col justify-between max-md:p-0 max-md:items-center px-4">
             <BlogCard
               src="https://www.wayhome.co.uk/blog/images/blog-imagery-1-.png"
               width={""}

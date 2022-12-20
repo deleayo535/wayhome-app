@@ -2,3 +2,10 @@
   background-color: white;
   width: 900px;
 }
+
+@media screen and (max-width: 768px) {
+  .faqCardWrap {
+    background-color: white;
+    width: 380px;
+  }
+}

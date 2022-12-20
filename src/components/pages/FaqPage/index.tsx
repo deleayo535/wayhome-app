@@ -11,12 +11,12 @@ export default function FaqPage() {
     //   <React.Fragment>
     <div>
       <div className={`${classes.faqHead}`}>
-        <div className="px-28 py-4">
+        <div className="px-28 max-md:px-4 py-4">
           <Link href={HOME}>
             <div className="uppercase font-bold text-xl">byloft</div>
           </Link>
           <div className="text-base">Frequently asked questions</div>
-          <div className="py-4">
+          <div className="py-4 max-md:py-2">
             <FormInput
               placeholder={"Search for articles..."}
               className={`${classes.faqForm}`}

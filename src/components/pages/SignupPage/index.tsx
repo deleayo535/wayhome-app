@@ -15,8 +15,8 @@ export default function SignPage() {
     <PageTemplate>
       <React.Fragment>
         <div className={`${classes.signTopWrap}`}>
-          <div className="flex justify-between mx-12 pt-20">
-            <div className="flex items-center text-base2 pb-4 text-midblack ">
+          <div className="flex justify-between max-md:flex-col-reverse max-md:pt-8 max-md:mx-4 mx-12 pt-20">
+            <div className="flex items-center max-md:text-base text-base2 pb-4 text-midblack ">
               Before we start...
             </div>
             <div>
@@ -30,8 +30,8 @@ export default function SignPage() {
         </div>
         <div className={`${classes.qualified}`}>
           <div>
-            <div className="ml-8">
-              <div className="text-base font-semibold text-midblack pb-1 pt-12">
+            <div className="ml-8 max-md:ml-4">
+              <div className="text-base font-semibold text-midblack pb-1 max-md:pt-8 pt-12">
                 Why Byloft?
               </div>
               <p className="text-sm text-lowblack">
@@ -40,7 +40,7 @@ export default function SignPage() {
             </div>
             <div
               style={{ zoom: "1.6" }}
-              className="flex flex-col space-y-1 p-4"
+              className="flex flex-col max-md:p-2 space-y-1 p-4"
             >
               <div>
                 <Checkbox
