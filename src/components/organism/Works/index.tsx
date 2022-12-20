@@ -5,7 +5,7 @@ export function Works() {
   return (
     <div className={`mt-10 max-md:mt-6 pb-20 ${classes.works}`}>
       <div
-        className={`flex justify-center max-md:pt-8 max-md:pl-4 pt-20 ${classes.worksHead}`}
+        className={`flex justify-center max-md:pt-8 max-md:px-4 pt-20 ${classes.worksHead}`}
       >
         How Gradual Homeownership works
       </div>

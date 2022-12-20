@@ -6,7 +6,7 @@ export function Meet() {
   return (
     <div className={`${classes.meet}`}>
       <div className="flex max-md:flex-col-reverse justify-between space-x-4">
-        <div className="w-2/4 max-md:w-full max-md:mt-4 max-md:mx-4 mt-10 ml-8">
+        <div className="w-2/4 max-md:w-10/12 max-md:mt-4 max-md:mx-4 mt-10 ml-8">
           <div className={`${classes.meetTxt} max-md:mr-6`}>
             <div className={`${classes.meetH1}`}>Meet the Payne family</div>
             <p className={`pb-6 max-md:pb-2 ${classes.meetP1}`}>
