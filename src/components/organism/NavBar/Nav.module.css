@@ -1,7 +1,8 @@
 .navMain {
-  display: flex;
-  gap: 8px;
+  /* display: flex; */
+  /* gap: 8px; */
 
+  justify-content: space-between;
   font-size: 1.2rem;
   line-height: 1.6;
   color: rgb(2, 90, 101);
@@ -25,3 +26,140 @@
   width: 220px;
   /* border-bottom: 1px solid rgb(2, 90, 101); */
 }
+
+.navRight Link {
+  cursor: pointer;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  background: #000000;
+  letter-spacing: 0.02rem;
+  text-transform: uppercase;
+}
+
+.mainNav {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.mainNav span {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.hamburger {
+  border: 0;
+  height: 40px;
+  /* width: 90px; */
+  padding-left: 0px;
+  /* border-radius: 50%; */
+  /* background-color: #46b5f3; */
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
+  display: none;
+}
+
+/* .hamburger:hover {
+  background-color: #46b5f3;
+} */
+
+.navigation {
+  height: 60px;
+  /* width: 100%; */
+  display: flex;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.navigationMenu {
+  margin-left: auto;
+}
+
+.navigationMenu ul {
+  display: flex;
+
+  padding: 0;
+}
+.navigationMenu li {
+  list-style-type: none;
+}
+
+.navigationMenu li Link {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+
+/* .navigationMenu .open ul {
+  display: block;
+} */
+
+@media screen and (max-width: 768px) {
+  .navigationMenu ul {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 0;
+    height: calc(100vh - 400px);
+    background-color: white;
+    border-top: 1px solid black;
+  }
+
+  .navigation .open {
+    /* width: 100%; */
+    position: fixed;
+    overflow: hidden;
+  }
+
+  .open ul {
+    display: block;
+    justify-content: center;
+    position: fixed;
+    height: 60vh;
+    overflow: auto;
+    top: 0;
+  }
+
+  .navigationMenu li {
+    margin: 0;
+    padding-bottom: 6px;
+  }
+
+  /* .navigationMenu li Link {
+    color: black;
+    width: 100%;
+  } */
+
+  /* .navigationMenu li:hover {
+    background-color: blue;
+  } */
+
+  .hamburger {
+    display: block;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    margin-top: 45px;
+    overflow: hidden;
+    /* padding-top: 25px; */
+  }
+}
+
+/* .Navbar {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+} */
