@@ -8,7 +8,7 @@
   color: rgb(2, 90, 101);
   font-weight: 600;
 
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .logInWrap {
@@ -58,7 +58,7 @@
   /* border-radius: 50%; */
   /* background-color: #46b5f3; */
   cursor: pointer;
-  transition: background-color 0.2s ease-in-out;
+  /* transition: background-color 0.2s ease-in-out; */
   position: absolute;
   top: 50%;
   right: 30px;
