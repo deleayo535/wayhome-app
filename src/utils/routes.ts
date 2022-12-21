@@ -1,5 +1,6 @@
 export const APPLICATION = "/application";
 export const HOME = "/";
+export const LOGIN = "/login";
 export const BLOG = "/blog";
 export const FAQ = "/faqs";
 export const WORKS = "/works";

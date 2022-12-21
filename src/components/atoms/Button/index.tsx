@@ -14,7 +14,7 @@ export const Button = ({
       onClick={onclick}
       style={style}
     >
-      <span className="text-sm font-normal">{text}</span>
+      <span className="text-smx font-normal">{text}</span>
     </button>
   );
 };

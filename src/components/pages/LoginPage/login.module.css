@@ -1,0 +1,38 @@
+.loginWrap {
+  background: rgb(239, 238, 232);
+}
+
+.loginContainer {
+  background-color: white;
+  width: 600px;
+  border: 1px solid rgb(239, 238, 232);
+}
+
+.loginTxt {
+  background: rgb(242, 203, 128);
+  color: rgb(66, 50, 18);
+}
+
+.form2 {
+  width: 520px;
+}
+
+.bt {
+  width: 800px;
+}
+
+.formBase {
+  border-bottom: 1px solid rgb(142, 132, 132);
+}
+
+@media screen and (max-width: 768px) {
+  .loginContainer {
+    background-color: white;
+    width: 380px;
+    border: 1px solid rgb(239, 238, 232);
+  }
+
+  .form2 {
+    width: 340px;
+  }
+}

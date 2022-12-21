@@ -9,6 +9,7 @@ import {
   ELIGIBILITY,
   FAQ,
   HOME,
+  LOGIN,
   SIGNUP,
   WORKS,
 } from "../../../utils/routes";
@@ -107,7 +108,7 @@ export const NavBar = () => {
                   </div>
                 </li>
                 <li>
-                  <Link href={""} onClick={showModal}>
+                  <Link href={LOGIN} onClick={showModal}>
                     <div className="hover:underline">Log in</div>
                   </Link>
                 </li>
