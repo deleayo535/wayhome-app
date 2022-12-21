@@ -17,8 +17,8 @@ export default function LoginPage() {
             <div className={`${classes.loginWrap} p-10 max-md:p-4`}>
               <div className={`${classes.loginTxt} rounded-lg`}>
                 <div className="p-6 max-md:p-4 font-medium text-smmd">
-                  In order to provide you with a better service, we've
-                  introduced new security measures. If you've already registered
+                  In order to provide you with a better service, we have
+                  introduced new security measures. If youve already registered
                   but have yet to create a password, you can create one now by
                   resetting your password via this link.
                 </div>
@@ -63,7 +63,7 @@ export default function LoginPage() {
                 </div>
               </div>
               <div className="flex justify-center max-md:pt-2 pt-4 max-md:text-smmd text-base font-['regs']">
-                Don't have an account yet? Get started
+                Dont have an account yet? Get started
               </div>
             </div>
           </div>
