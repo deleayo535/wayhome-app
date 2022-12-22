@@ -1,3 +1,4 @@
+import { Image } from "../../atoms";
 import { Button } from "../../atoms/Button";
 import { Budget } from "../../molecules/budget";
 import classes from "./hero.module.css";
@@ -27,7 +28,34 @@ export const Hero = () => {
         <div className="m-8"></div>
       </div>
       <div className={`mt-20 max-md:mt-2 ${classes.feature}`}>
-        <div></div>
+        <div className="flex max-md:flex-col max-md:px-6 max-md:space-y-6 justify-center items-center max-md:space-x-2 max-md:pb-4 space-x-8 pb-8">
+          <div
+            className={`${classes.featureHead} text-midblack max-md:pt-1 max-md:pr-2 pr-6 max-md:text-smmd text-base font-['reg']`}
+          >
+            Featured in
+          </div>
+
+          <div className="flex max-md:flex-col justify-center items-center">
+            <div className="flex justify-center items-center max-md:space-x-6 space-x-8">
+              <Image src={"mirror-logo.png"} width={"80px"} height={"40px"} />
+              <Image
+                src={"The_Telegraph_logo.png"}
+                width={"140px"}
+                height={""}
+              />
+              <Image src={"guardian.png"} width={"80px"} height={"40px"} />
+            </div>
+            <div className="flex justify-center items-center  space-x-8">
+              <Image
+                src={"evening-standard.png"}
+                width={"80px"}
+                height={"40px"}
+              />
+              <Image src={"daily-mail2.svg"} width={"100px"} height={"80px"} />
+              <Image src={"punch.png"} width={"150px"} height={"45px"} />
+            </div>
+          </div>
+        </div>
       </div>
       <div
         className={`w-3/4 max-md:w-10/12 max-md:m-4 max-md:pt-2 m-8 pt-8 ${classes.heroH4}`}

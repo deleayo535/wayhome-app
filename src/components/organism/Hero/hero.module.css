@@ -35,10 +35,22 @@
 
 .feature {
   background-color: rgb(199, 219, 221);
-  height: 65px;
+  height: 75px;
+}
+
+.featureHead {
+  border-right: 1px solid rgb(75, 65, 65);
 }
 
 @media screen and (max-width: 768px) {
+  .feature {
+    background-color: rgb(199, 219, 221);
+    height: 180px;
+  }
+  .featureHead {
+    border-right: 0px solid rgb(75, 65, 65);
+    border-bottom: 1px solid rgb(75, 65, 65);
+  }
   .heroH2 {
     font-family: Copernicus, serif;
     font-size: 2.4rem;
