@@ -20,6 +20,7 @@ module.exports = {
       xlg: "2.75rem",
       xl: "3.5rem",
       xxl: "5rem",
+      xxlg: "6.5rem",
     },
 
     fontFamily: {
@@ -32,6 +33,7 @@ module.exports = {
       current: "currentColor",
       white: "#ffffff",
       grey: "#909aa5",
+      bcolor: "#025a65",
 
       black: "rgb(51, 51, 49);",
       midblack: "rgb(51, 51, 49);",

@@ -1,3 +1,12 @@
+import Link from "next/link";
+import {
+  CAREERS,
+  KEY,
+  PRESS,
+  PRIVACY,
+  REGULATORY,
+  TERMS,
+} from "../../../utils/routes";
 import classes from "./footer.module.css";
 
 export const Footer = () => {
@@ -16,18 +25,29 @@ export const Footer = () => {
             </div>
           </div>
           <div
-            className={`flex max-md:flex-col max-md:mx-4 max-md:space-x-0 max-md:space-y-2 space-x-4 mx-8 pb-6 max-md:pb-4 justify-center ${classes.footerTxt2}`}
+            className={`flex font-medium max-md:flex-col max-md:mx-4 max-md:space-x-0 max-md:space-y-2 space-x-4 mx-8 pb-6 max-md:pb-4 justify-center ${classes.footerTxt2}`}
           >
-            <p>Careers</p>
-            <p>Press</p>
-            <p>Privacy</p>
-            <p>Policy</p>
-            <p>Terms and Conditions </p>
-            <p>Key Considerations</p>
-            <p>Regulatory Information</p>
+            <Link href={CAREERS}>
+              <p>Careers</p>
+            </Link>
+            <Link href={PRESS}>
+              <p>Press</p>
+            </Link>
+            <Link href={PRIVACY}>
+              <p>Privacy Policy</p>
+            </Link>
+            <Link href={TERMS}>
+              <p>Terms and Conditions </p>
+            </Link>
+            <Link href={KEY}>
+              <p>Key Considerations</p>
+            </Link>
+            <Link href={REGULATORY}>
+              <p>Regulatory Information</p>
+            </Link>
           </div>
         </div>
-        <div className="flex max-md:flex-col px-12 py-8 max-md:py-4 max-md:px-4 max-md:space-x-0 space-x-6">
+        <div className="flex text-smx max-md:flex-col px-12 py-8 max-md:py-4 max-md:px-4 max-md:space-x-0 space-x-6">
           <div className="w-2/4 max-md:w-full space-y-3 whitespace-normal">
             <p>
               Unmortgage Ltd (registered in England and Wales, Company No.

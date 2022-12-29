@@ -1,7 +1,13 @@
 export const APPLICATION = "/application";
 export const HOME = "/";
+export const CAREERS = "/careers";
 export const LOGIN = "/login";
 export const BLOG = "/blog";
+export const PRESS = "/press";
+export const PRIVACY = "/privacy";
+export const TERMS = "/terms";
+export const REGULATORY = "/regulatory";
+export const KEY = "/key";
 export const FAQ = "/faqs";
 export const WORKS = "/works";
 export const ABOUT = "/about";

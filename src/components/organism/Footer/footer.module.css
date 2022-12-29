@@ -11,7 +11,7 @@
 
 .footerTxt {
   font-family: ModernEra, sans-serif;
-  font-size: 1.125rem;
+  font-size: 1.35rem;
   line-height: 1.6;
   font-weight: 500;
   margin-bottom: 0.5rem;
@@ -19,9 +19,11 @@
 }
 
 .footerTxt p {
+  font-size: 1.35rem;
   color: rgb(235, 178, 66);
 }
 .footerTxt2 p {
+  font-size: 1.35rem;
   color: rgb(235, 178, 66);
 }
 

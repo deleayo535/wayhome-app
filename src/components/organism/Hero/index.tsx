@@ -35,7 +35,7 @@ export const Hero = () => {
             Featured in
           </div>
 
-          <div className="flex max-md:flex-col justify-center items-center">
+          <div className="flex max-md:flex-col space-x-8 max-md:space-x-0 justify-center items-center">
             <div className="flex justify-center items-center max-md:space-x-6 space-x-8">
               <Image src={"mirror-logo.png"} width={"80px"} height={"40px"} />
               <Image
