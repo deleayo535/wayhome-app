@@ -10,7 +10,7 @@ export default function PressPage() {
             <div className="text-xxlg max-md:text-xl font-['reg'] max-md:pb-4 pb-8">
               Press and media
             </div>
-            <div className="text-lg max-md:text-base max-md:mx-0 mx-72">
+            <div className="text-lg max-md:text-base max-md:mx-0 px-60">
               For any press enquiries or media opportunities please email us at
               <span>press@wayhome.co.uk</span>
             </div>
