@@ -7,14 +7,14 @@ export default function RegulatoryPage() {
       <React.Fragment>
         <div className="mx-8 max-md:mx-6">
           <div className="text-center text-midblack max-md:py-8 py-20">
-            <div className="text-xxlg max-md:text-xl max-md:leading-tight max-md:pb-4 font-['reg'] pb-8">
+            <div className="text-xxl max-md:text-xl max-md:leading-tight max-md:pb-4 font-['reg'] pb-8">
               Regulatory Information
             </div>
           </div>
         </div>
         <div className="w-3/5 max-md:w-full">
-          <div className="mx-12 max-md:mx-6 max-md:pb-8 pb-16 text-base2 max-md:text-sm max-md:space-y-2 text-midblack space-y-6">
-            <div className="text-xl max-md:text-base2 max-md:leading-tight max-md:pb-2 font-normal max-md:pt-0 pt-6 pb-4">
+          <div className="mx-12 max-md:mx-6 max-md:pb-8 pb-16 text-smx max-md:text-sm max-md:space-y-2 text-midblack space-y-6">
+            <div className="text-lg max-md:text-base2 max-md:leading-tight max-md:pb-2 font-normal max-md:pt-0 pt-6 pb-4">
               Is your investment in an LLP regulated by the FCA?
             </div>
 
@@ -34,7 +34,7 @@ export default function RegulatoryPage() {
               supervised and regulated by the FCA, or subject to any FCA rules,
               in relation to these activities.
             </div>
-            <div className="text-xl max-md:text-base2 max-md:leading-tight max-md:pb-2 font-normal pt-6 pb-4">
+            <div className="text-lg max-md:text-base2 max-md:leading-tight max-md:pb-2 font-normal pt-6 pb-4">
               What about the insurance arrangements?
             </div>
 
@@ -53,7 +53,7 @@ export default function RegulatoryPage() {
               902968). Wayhome is not authorised and regulated by the FCA for
               any other aspect of our business.
             </div>
-            <div className="text-xl max-md:text-base2 max-md:leading-tight max-md:pb-2 font-normal pt-6 pb-4">
+            <div className="text-lg max-md:text-base2 max-md:leading-tight max-md:pb-2 font-normal pt-6 pb-4">
               Is my investment in an LLP protected by the Financial Ombudsman
               Service and the Financial Services Compensation Scheme?
             </div>
@@ -67,7 +67,7 @@ export default function RegulatoryPage() {
               provider, which fall within the scope of the Financial Ombudsman
               Scheme or the Financial Services Compensation Scheme.
             </div>
-            <div className="text-xl max-md:text-base2 max-md:leading-tight max-md:pb-2 font-normal pt-6 pb-4">
+            <div className="text-lg max-md:text-base2 max-md:leading-tight max-md:pb-2 font-normal pt-6 pb-4">
               Is Wayhome part of The Property Redress Scheme?
             </div>
             <div>Yes.</div>
@@ -85,7 +85,7 @@ export default function RegulatoryPage() {
               independent organisation that handle complaints for the property
               industry.
             </div>
-            <div className="text-xl max-md:text-base2 max-md:leading-tight max-md:pb-2 font-normal pt-6 pb-4">
+            <div className="text-lg max-md:text-base2 max-md:leading-tight max-md:pb-2 font-normal pt-6 pb-4">
               Does the RICS Dispute Resolution Service apply?
             </div>
             <div>Yes.</div>

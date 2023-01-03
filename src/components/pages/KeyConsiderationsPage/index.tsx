@@ -7,19 +7,19 @@ export default function KeyConsiderationsPage() {
       <React.Fragment>
         <div className="mx-8 max-md:mx-6">
           <div className="text-center text-midblack max-md:py-8 py-20">
-            <div className="text-xxlg max-md:leading-tight max-md:text-xl max-md:pb-2 font-['reg'] pb-8">
+            <div className="text-xxl max-md:leading-tight max-md:text-xl max-md:pb-2 font-['reg'] pb-8">
               Key Considerations
             </div>
           </div>
         </div>
         <div className="w-3/5 max-md:w-full">
-          <div className="mx-12 max-md:mx-6 pb-16 text-base2 max-md:text-sm max-md:space-y-2 text-midblack space-y-6">
-            <div className="text-lg max-md:text-smx leading-tight">
+          <div className="mx-12 max-md:mx-6 pb-16 text-smx max-md:text-sm max-md:space-y-2 text-midblack space-y-6">
+            <div className="text-base max-md:text-smx leading-tight">
               Before going ahead with a Wayhome arrangement, please consider the
               important information and potential risks outlined below:
             </div>
 
-            <div className="text-xl max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4">
+            <div className="text-xlg max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4">
               Loss of Capital
             </div>
 
@@ -32,7 +32,7 @@ export default function KeyConsiderationsPage() {
               future capital returns.
             </div>
 
-            <div className="text-xl max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4">
+            <div className="text-xlg max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4">
               {" "}
               Availability of properties
             </div>
@@ -41,7 +41,7 @@ export default function KeyConsiderationsPage() {
               of properties that meet both your requirements/preferences and/or
               the requirements/preferences of our funding partners.
             </div>
-            <div className="text-xl max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4">
+            <div className="text-xlg max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4">
               Illiquid Investment
             </div>
             <div>
@@ -51,7 +51,7 @@ export default function KeyConsiderationsPage() {
               realise your investment proceeds in a short time frame.
             </div>
 
-            <div className="text-xl max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4">
+            <div className="text-xlg max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4">
               Nature of the Investment
             </div>
             <div>
@@ -60,7 +60,7 @@ export default function KeyConsiderationsPage() {
               compared with any other existing products on a like for like
               basis.
             </div>
-            <div className="text-xl max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4"></div>
+            <div className="text-xlg max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4"></div>
             <div>
               The Wayhome arrangement contains a partnership agreement and a
               rental agreement. Both agreements put an obligation on you to make
@@ -70,7 +70,7 @@ export default function KeyConsiderationsPage() {
               your obligations.
             </div>
 
-            <div className="text-xl max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4">
+            <div className="text-xlg max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4">
               Advice
             </div>
             <div>
@@ -78,7 +78,7 @@ export default function KeyConsiderationsPage() {
               recommendations regarding the purchase of homes through the
               Wayhome arrangement.
             </div>
-            <div className="text-xl max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4">
+            <div className="text-xlg max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4">
               {" "}
               Jurisdiction
             </div>
@@ -102,7 +102,7 @@ export default function KeyConsiderationsPage() {
               We suggest getting a second opinion from an independent,
               regulated, third-party, financial advisor.
             </div>
-            <div className="text-xl max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4">
+            <div className="text-xlg max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4">
               Buying your home
             </div>
             <div>

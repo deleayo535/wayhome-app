@@ -13,8 +13,8 @@ export default function TermsPage() {
           </div>
         </div>
         <div className="w-3/5 max-md:w-full">
-          <div className="mx-12 max-md:mx-6 max-md:pb-8 pb-16 max-md:text-sm text-base2 text-midblack max-md:space-y-2 space-y-6">
-            <div className="text-xl max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4">
+          <div className="mx-12 max-md:mx-6 max-md:pb-8 pb-16 max-md:text-sm text-smx text-midblack max-md:space-y-2 space-y-6">
+            <div className="text-xlg max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4">
               1. Introduction
             </div>
             <div>
@@ -32,7 +32,7 @@ export default function TermsPage() {
               10395239) and its subsidiaries comprise the Unmortgage Group. Our
               registered office is at 1 Poultry, London, EC2R 8EJ.
             </div>
-            <div className="text-xl max-md:text-base2 max-md:pb-2 font-normal pt-6 pb-4">
+            <div className="text-xlg max-md:text-base2 max-md:pb-2 font-normal pt-6 pb-4">
               2. General Terms of Use
             </div>
 
@@ -59,7 +59,7 @@ export default function TermsPage() {
               convenience and Wayhome accepts no responsibility for the content
               on such websites.
             </div>
-            <div className="text-xl max-md:text-base2 max-md:pb-2 font-normal pt-6 pb-4">
+            <div className="text-xlg max-md:text-base2 max-md:pb-2 font-normal pt-6 pb-4">
               3. No Offer
             </div>
             <div>
@@ -73,7 +73,7 @@ export default function TermsPage() {
               the suitability of the Arrangement for you, or in making an
               investment or other decision.
             </div>
-            <div className="text-xl max-md:text-base2 max-md:pb-2 font-normal pt-6 pb-4">
+            <div className="text-xlg max-md:text-base2 max-md:pb-2 font-normal pt-6 pb-4">
               4. Intellectual Property
             </div>
             <div>
@@ -88,7 +88,7 @@ export default function TermsPage() {
               copying from this Website will not transfer title to any software
               or material to you.
             </div>
-            <div className="text-xl max-md:text-base2 max-md:pb-2 font-normal pt-6 pb-4">
+            <div className="text-xlg max-md:text-base2 max-md:pb-2 font-normal pt-6 pb-4">
               5. Further Restrictions
             </div>
             <div>

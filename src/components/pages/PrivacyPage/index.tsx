@@ -7,13 +7,13 @@ export default function PrivacyPage() {
       <React.Fragment>
         <div className="mx-8 max-md:mx-6">
           <div className="text-center text-midblack max-md:py-4 py-20">
-            <div className="text-xxlg max-md:text-xl max-md:pb-4 font-['reg'] pb-8">
+            <div className="text-xxl max-md:text-xl max-md:pb-4 font-['reg'] pb-8">
               Privacy Policy
             </div>
           </div>
         </div>
         <div className="w-3/5 max-md:w-full">
-          <div className="mx-12 max-md:mx-4 pb-16 text-base2 max-md:text-sm text-midblack max-md:space-y-2 space-y-6">
+          <div className="mx-12 max-md:mx-4 pb-16 text-smx max-md:text-sm text-midblack max-md:space-y-2 space-y-6">
             <div>
               By registering with Wayhome, you are providing personal data which
               we strive to protect. We promise to never sell your data and
@@ -24,7 +24,7 @@ export default function PrivacyPage() {
               privacy policy. This page gives you an idea of how we collect your
               information, why we collect it, and how we process it.
             </div>
-            <div className="text-xl max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4">
+            <div className="text-xlg max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4">
               Contact details
             </div>
             <div>Please note that Wayhome is a trading name of:</div>
@@ -52,7 +52,7 @@ export default function PrivacyPage() {
               <div>Lagos</div>
               <div>EC2R 8EJ</div>
             </div>
-            <div className="text-xl max-md:leading-8 max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4">
+            <div className="text-xlg max-md:leading-8 max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4">
               How we receive information
             </div>
             <div>
@@ -78,7 +78,7 @@ export default function PrivacyPage() {
               We also use cookies to collect other information and help us
               analyse the performance of our website and service.
             </div>
-            <div className="text-xl max-md:leading-8 max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4">
+            <div className="text-xlg max-md:leading-8 max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4">
               What information we collect
             </div>
             <div>
@@ -142,7 +142,7 @@ export default function PrivacyPage() {
               its only shared with team members that absolutely need to see it
               to perform their job.
             </div>
-            <div className="text-xl max-md:leading-8 max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4">
+            <div className="text-xlg max-md:leading-8 max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4">
               How we might use your information
             </div>
             <div>
@@ -166,7 +166,7 @@ export default function PrivacyPage() {
               <li>help us train new candidates</li>
               <li>protect our servers against attacks</li>
             </div>
-            <div className="text-xl max-md:leading-8 max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4">
+            <div className="text-xlg max-md:leading-8 max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4">
               How we might contact you
             </div>
             <div>We might contact you:</div>
@@ -203,7 +203,7 @@ export default function PrivacyPage() {
               <li>to help you understand our qualification process</li>
               <li>if you opt in to receive marketing</li>
             </div>
-            <div className="text-xl max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4">
+            <div className="text-xlg max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4">
               Credit reference checks
             </div>
             <div>
