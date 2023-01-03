@@ -5,6 +5,7 @@
 
 .footerHead {
   /* width: 80%; */
+
   border-bottom: 1px solid rgb(255, 255, 255);
   border-top: 1px solid rgb(255, 255, 255);
 }
@@ -32,9 +33,16 @@
     font-family: ModernEra, sans-serif;
     font-size: 0.715rem;
     line-height: 1.5;
-    font-weight: 500;
-    margin-bottom: 0.5rem;
-    color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
+    /* font-weight: 500; */
+  }
+
+  .footerTxt p {
+    font-size: 0.75rem;
+  }
+
+  .footerTxt2 p {
+    font-size: 1rem;
   }
 
   .footerTxt2 {
@@ -43,6 +51,5 @@
     line-height: 1.5;
     font-weight: 500;
     margin-top: 0.5rem;
-    border-bottom: 1px solid rgb(255, 255, 255);
   }
 }

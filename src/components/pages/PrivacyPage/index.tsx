@@ -5,13 +5,15 @@ export default function PrivacyPage() {
   return (
     <PageTemplate>
       <React.Fragment>
-        <div className="mx-32">
-          <div className="text-center text-midblack py-20">
-            <div className="text-xxlg font-['reg'] pb-8">Privacy Policy</div>
+        <div className="mx-32 max-md:mx-6">
+          <div className="text-center text-midblack max-md:py-4 py-20">
+            <div className="text-xxlg max-md:text-xl max-md:pb-4 font-['reg'] pb-8">
+              Privacy Policy
+            </div>
           </div>
         </div>
-        <div className="w-3/5">
-          <div className="mx-12 pb-16 text-base2 text-midblack space-y-6">
+        <div className="w-3/5 max-md:w-full">
+          <div className="mx-12 max-md:mx-4 pb-16 text-base2 max-md:text-sm text-midblack max-md:space-y-2 space-y-6">
             <div>
               By registering with Wayhome, you are providing personal data which
               we strive to protect. We promise to never sell your data and
@@ -22,7 +24,9 @@ export default function PrivacyPage() {
               privacy policy. This page gives you an idea of how we collect your
               information, why we collect it, and how we process it.
             </div>
-            <div className="text-xl font-normal pt-6 pb-4">Contact details</div>
+            <div className="text-xl max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4">
+              Contact details
+            </div>
             <div>Please note that Wayhome is a trading name of:</div>
             <div>
               Unmortgage Ltd, a private company registered in England and Wales
@@ -48,7 +52,7 @@ export default function PrivacyPage() {
               <div>Lagos</div>
               <div>EC2R 8EJ</div>
             </div>
-            <div className="text-xl font-normal pt-6 pb-4">
+            <div className="text-xl max-md:leading-8 max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4">
               How we receive information
             </div>
             <div>
@@ -74,7 +78,7 @@ export default function PrivacyPage() {
               We also use cookies to collect other information and help us
               analyse the performance of our website and service.
             </div>
-            <div className="text-xl font-normal pt-6 pb-4">
+            <div className="text-xl max-md:leading-8 max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4">
               What information we collect
             </div>
             <div>
@@ -138,7 +142,7 @@ export default function PrivacyPage() {
               its only shared with team members that absolutely need to see it
               to perform their job.
             </div>
-            <div className="text-xl font-normal pt-6 pb-4">
+            <div className="text-xl max-md:leading-8 max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4">
               How we might use your information
             </div>
             <div>
@@ -162,7 +166,44 @@ export default function PrivacyPage() {
               <li>help us train new candidates</li>
               <li>protect our servers against attacks</li>
             </div>
-            <div className="text-xl font-normal pt-6 pb-4">
+            <div className="text-xl max-md:leading-8 max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4">
+              How we might contact you
+            </div>
+            <div>We might contact you:</div>
+
+            <div>
+              <li>
+                to let you know about changes to our service, website, terms and
+                conditions, or privacy policy
+              </li>
+              <li>
+                to give you information you have asked for (e.g. a link to log
+                in)
+              </li>
+              <li>
+                to invite you to participate in surveys (e.g. to help us
+                understand the homes you like)
+              </li>
+              <li>if you express an interest in a specific home</li>
+              <li>
+                to give you additional information about a home you have shown
+                interest in
+              </li>
+              <li>to return a call-back request</li>
+              <li>
+                work out if you are a suitable candidate if you apply for a role
+              </li>
+              <li>
+                to keep you updated about future changes (e.g. new homes in new
+                areas)
+              </li>
+              <li>
+                to help you understand how Wayhome works and might work for you
+              </li>
+              <li>to help you understand our qualification process</li>
+              <li>if you opt in to receive marketing</li>
+            </div>
+            <div className="text-xl max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4">
               Credit reference checks
             </div>
             <div>
@@ -188,6 +229,31 @@ export default function PrivacyPage() {
               whether you are on the electoral register.
             </div>
             <div>We use this information to:</div>
+
+            <div>
+              <li> access whether you are creditworthy</li>
+              <li>access whether you can afford to use Wayhome</li>
+              <li>verify the accuracy of the information you have given us</li>
+              <li>prevent criminal activity, fraud, and money laundering</li>
+              <li>manage your account(s)</li>
+              <li>trace and recover debts</li>
+              <li>
+                work out if you are a suitable candidate if you apply for a role
+              </li>
+              <li>
+                make sure we only provide help appropriate to your circumstances
+              </li>
+              <div>
+                When we process your details with Experian, they place a search
+                footprint on your credit file which cant be seen by other
+                organisations.
+              </div>
+              <div>
+                We may use this information to work out whether Wayhome is
+                suitable for you and to verify the accuracy of the data you have
+                provided.
+              </div>
+            </div>
           </div>
         </div>
       </React.Fragment>

@@ -9,7 +9,7 @@ export default function CareerPage() {
     <PageTemplate>
       <React.Fragment>
         <div>
-          <div className="flex justify-center pb-4 text-bcolor space-x-8 text-smmd font-medium">
+          <div className="flex justify-center max-md:hidden pb-4 text-bcolor space-x-8 text-smmd font-medium">
             <div>Our Story</div>
             <div>Who We Are</div>
             <div>Perks</div>
@@ -17,13 +17,13 @@ export default function CareerPage() {
             <div>Location</div>
           </div>
         </div>
-        <div className={`${classes.careerTop} pb-4`}>
+        <div className={`${classes.careerTop} max-md:pb-0 pb-4`}>
           <div className="pb-12">
             <div className="text-center">
-              <div className="text-xlg text-midblack py-12 font-bold">
+              <div className="text-xlg max-md:text-base2 text-midblack max-md:py-2 py-12 font-bold">
                 Who we are
               </div>
-              <div className="text-smx px-12 py-6 text-lowblack">
+              <div className="text-smx max-md:text-sxm max-md:px-6 max-md:py-2 px-12 py-6 text-lowblack">
                 At Wayhome we are reinventing homeownership by co-investing with
                 people who havent been able to buy a home yet. We are a small
                 team of property specialists, data scientists, engineers and
@@ -32,7 +32,7 @@ export default function CareerPage() {
                 security and freedom of homeownership for their families and for
                 themselves.
               </div>
-              <div className="text-smx px-12 py-6 text-lowblack">
+              <div className="text-smx max-md:text-sxm max-md:px-6 max-md:py-2 px-12 py-6 text-lowblack">
                 We believe in the power of a shared goal and set of beliefs. Our
                 core values are the commitments we have made to each other: they
                 are what unite us, guiding our decision-making and driving us to
@@ -41,16 +41,18 @@ export default function CareerPage() {
             </div>
           </div>
         </div>
-        <div className={`${classes.careerTop} pb-4`}>
-          <div className="px-12 py-8">
+        <div className={`${classes.careerTop} max-md:pb-0 pb-4`}>
+          <div className="px-12 max-md:px-0 max-md:py-4 py-8">
             <div className="text-center">
-              <div className="text-xlg text-midblack font-bold">Our vision</div>
-              <div className="text-smx px-12 pb-8 text-midblack">
+              <div className="text-xlg max-md:text-base2 text-midblack font-bold">
+                Our vision
+              </div>
+              <div className="text-smx max-md:text-sm max-md:px-6 px-12 pb-8 max-md:leading-5 text-midblack">
                 People deserve to live where they love, and love where they
                 live, in a home of their own.
               </div>
-              <div className="flex">
-                <div className="text-smmd space-y-6 px-12 py-6 text-lowblack">
+              <div className="flex max-md:flex-col">
+                <div className="text-smmd max-md:text-sxm max-md:space-y-4 space-y-6 max-md:py-0 max-md:px-6 px-12 py-6 text-lowblack">
                   <div>
                     Home matters. A house is just a structure. A property is
                     just a rung on the ladder. But home?
@@ -82,7 +84,7 @@ export default function CareerPage() {
                   </div>
                   <div>Our vision, in short, is a new way home.</div>
                 </div>
-                <div className="py-8 pr-16 ">
+                <div className="py-8 pr-16 max-md:pr-0 max-md:px-4">
                   <Image
                     src="	https://d27i7n2isjbnbi.cloudfront.net/careers/photos/129477/normal_photo_1567008707.png"
                     width={"180rem"}
@@ -94,27 +96,27 @@ export default function CareerPage() {
             </div>
           </div>
         </div>
-        <div className={`${classes.careerTop} pb-4`}>
-          <div className="text-center px-12 py-8">
-            <div className="text-xlg text-midblack pt-4 font-bold">
+        <div className={`${classes.careerTop} max-md:pb-0 pb-4`}>
+          <div className="text-center max-md:px-6 max-md:py-4 px-12 py-8">
+            <div className="text-xlg max-md:text-base2 max-md:leading-10 text-midblack pt-4 font-bold">
               Why we do what we do
             </div>
-            <div className="text-smx px-12 py-6 text-lowblack">
+            <div className="text-smx max-md:px-0 px-12 py-6 text-lowblack">
               Help us make a difference to peoples lives - for the better 🙌🏻
             </div>
           </div>
         </div>
-        <div className={`${classes.careerTop} pb-4`}>
-          <div className="text-center px-12 py-12">
+        <div className={`${classes.careerTop} max-md:pb-0 pb-4`}>
+          <div className="text-center px-12 py-12 max-md:px-6 max-md:py-4">
             <div>
-              <div className="text-xlg text-midblack pt-4 font-bold">
+              <div className="text-xlg max-md:text-base2 text-midblack pt-4 font-bold">
                 Our values
               </div>
-              <div className="text-smx px-12 pb-8 text-lowblack">
+              <div className="text-smx max-md:text-smmd max-md:px-0 px-12 pb-8 text-lowblack">
                 Our commitment to each other
               </div>
             </div>
-            <div className="flex justify-center space-x-12">
+            <div className="flex max-md:flex-col justify-center max-md:items-center max-md:space-y-4 max-md:space-x-0 space-x-12">
               <Image
                 src={
                   "	https://d27i7n2isjbnbi.cloudfront.net/careers/photos/236364/thumb_photo_1629206751.jpg"
@@ -146,34 +148,34 @@ export default function CareerPage() {
             </div>
           </div>
         </div>
-        <div className={`${classes.careerTop} pb-4`}>
-          <div className="text-center px-12 py-24">
-            <div className="text-smmd  px-12 pb-4 text-lowblack">
+        <div className={`${classes.careerTop} max-md:pb-0 pb-4`}>
+          <div className="text-center max-md:px-6 max-md:py-10 px-12 py-24">
+            <div className="text-smmd  px-12 max-md:px-0 max-md:text-sxm pb-4 text-lowblack">
               <span className="font-bold">We care. </span>
               About our purpose, our customers and each other.
             </div>
-            <div className="text-smmd  px-12 pb-4 text-lowblack">
+            <div className="text-smmd  px-12 max-md:px-0 max-md:text-sxm pb-4 text-lowblack">
               <span className="font-bold">We deliver. </span>
               We do great work, own our outcomes and find a way.
             </div>
-            <div className="text-smmd  px-12 pb-4 text-lowblack">
+            <div className="text-smmd  px-12 max-md:px-0 max-md:text-sxm pb-4 text-lowblack">
               <span className="font-bold">We collaborate. </span>
               We embrace teamwork, share our knowledge and help each other grow.
             </div>
-            <div className="text-smmd  px-12 text-lowblack">
+            <div className="text-smmd  px-12 max-md:px-0 max-md:text-sxm text-lowblack">
               <span className="font-bold">We innovate. </span>We are curious,
               open-minded and challenge the status quo.
             </div>
           </div>
         </div>
         <div className={`${classes.careerBtm}`}>
-          <div className="px-16 py-12">
+          <div className="px-16 max-md:px-6 max-md:py-10 py-12">
             <div>
-              <div className="text-center text-xlg pb-12 font-bold">
+              <div className="text-center text-xlg max-md:text-base2 max-md:pb-6 pb-12 font-bold">
                 ✨ Perks & benefits ✨
               </div>
-              <div className="flex justify-center px-20 space-x-20 text-smmd font-medium">
-                <div className="w-1/3 space-y-4 items-center">
+              <div className="flex max-md:flex-col justify-center max-md:px-0 px-20 max-md:space-x-0 space-x-20 text-smmd max-md:text-sxm font-medium">
+                <div className="w-1/3 max-md:w-full max-md:space-y-1 space-y-4 items-center">
                   <div>
                     <CheckOutlined /> Unlimited holidays with a minimum 28
                     days/yr
@@ -185,7 +187,7 @@ export default function CareerPage() {
                     <CheckOutlined /> Monthly team outings budget
                   </div>
                 </div>
-                <div className="w-1/3 space-y-4">
+                <div className="w-1/3 max-md:w-full max-md:space-y-1 space-y-4">
                   <div>
                     <CheckOutlined /> Remote working AND a pet-friendly office
                   </div>
@@ -196,7 +198,7 @@ export default function CareerPage() {
                     <CheckOutlined /> Learning budget of up to N600 per year
                   </div>
                 </div>
-                <div className="w-1/3 space-y-4">
+                <div className="w-1/3 max-md:w-full max-md:space-y-1 space-y-4">
                   <div>
                     <CheckOutlined /> Mental health budget
                   </div>

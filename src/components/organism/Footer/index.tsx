@@ -1,6 +1,13 @@
 import Link from "next/link";
 import {
+  FacebookOutlined,
+  TwitterOutlined,
+  InstagramOutlined,
+  LinkedinOutlined,
+} from "@ant-design/icons";
+import {
   CAREERS,
+  FAQ,
   KEY,
   PRESS,
   PRIVACY,
@@ -14,40 +21,53 @@ export const Footer = () => {
     <div className={`${classes.footerWrap}`}>
       <div>
         <div>
+          <div className="flex justify-center items-center max-md:justify-start max-md:px-4 max-md:space-x-4 space-x-8">
+            <div className="font-semibold text-smx max-md:text-smx max-md:py-2 py-4">
+              Find us on
+            </div>
+            <div className="space-x-4">
+              <FacebookOutlined style={{ fontSize: "26px" }} />
+              <TwitterOutlined style={{ fontSize: "26px" }} />
+              <InstagramOutlined style={{ fontSize: "26px" }} />
+              <LinkedinOutlined style={{ fontSize: "26px" }} />
+            </div>
+          </div>
           <div className={`space-y-4 mx-12 max-md:mx-3 ${classes.footerHead}`}>
             <div
-              className={`flex text-sm pt-10 max-md:pt-6 justify-center max-md:justify-start max-md:space-x-0 space-x-2 ${classes.footerTxt}`}
+              className={`flex text-sm max-md:pt-2 max-md:py-2 py-4 justify-center max-md:justify-start max-md:space-x-1 space-x-2 ${classes.footerTxt}`}
             >
               <h1 className="">Got any questions? </h1>
-              <p>Check out our FAQs </p>
+              <Link href={FAQ}>
+                <p>Check out our FAQs </p>
+              </Link>
               <span>or</span>
               <p> chat to us through Intercom</p>
             </div>
-          </div>
-          <div
-            className={`flex font-medium max-md:flex-col max-md:mx-4 max-md:space-x-0 max-md:space-y-2 space-x-4 mx-8 pb-6 max-md:pb-4 justify-center ${classes.footerTxt2}`}
-          >
-            <Link href={CAREERS}>
-              <p>Careers</p>
-            </Link>
-            <Link href={PRESS}>
-              <p>Press</p>
-            </Link>
-            <Link href={PRIVACY}>
-              <p>Privacy Policy</p>
-            </Link>
-            <Link href={TERMS}>
-              <p>Terms and Conditions </p>
-            </Link>
-            <Link href={KEY}>
-              <p>Key Considerations</p>
-            </Link>
-            <Link href={REGULATORY}>
-              <p>Regulatory Information</p>
-            </Link>
+            <div
+              className={`flex font-medium max-md:flex-col max-md:mx-2 max-md:space-x-0 max-md:space-y-1 space-x-4 mx-8 pb-6 max-md:pb-4 justify-center ${classes.footerTxt2}`}
+            >
+              <Link href={CAREERS}>
+                <p>Careers</p>
+              </Link>
+              <Link href={PRESS}>
+                <p>Press</p>
+              </Link>
+              <Link href={PRIVACY}>
+                <p>Privacy Policy</p>
+              </Link>
+              <Link href={TERMS}>
+                <p>Terms and Conditions </p>
+              </Link>
+              <Link href={KEY}>
+                <p>Key Considerations</p>
+              </Link>
+              <Link href={REGULATORY}>
+                <p>Regulatory Information</p>
+              </Link>
+            </div>
           </div>
         </div>
-        <div className="flex text-smx max-md:flex-col px-12 py-8 max-md:py-4 max-md:px-4 max-md:space-x-0 space-x-6">
+        <div className="flex text-smx max-md:text-sxm max-md:flex-col px-12 py-8 max-md:py-4 max-md:px-4 max-md:space-x-0 max-md:space-y-2 space-x-6">
           <div className="w-2/4 max-md:w-full space-y-3 whitespace-normal">
             <p>
               Unmortgage Ltd (registered in England and Wales, Company No.
