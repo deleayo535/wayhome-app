@@ -5,7 +5,7 @@ export default function RegulatoryPage() {
   return (
     <PageTemplate>
       <React.Fragment>
-        <div className="mx-32 max-md:mx-6">
+        <div className="mx-8 max-md:mx-6">
           <div className="text-center text-midblack max-md:py-8 py-20">
             <div className="text-xxlg max-md:text-xl max-md:leading-tight max-md:pb-4 font-['reg'] pb-8">
               Regulatory Information

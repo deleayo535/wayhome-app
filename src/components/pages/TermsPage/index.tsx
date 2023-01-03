@@ -7,7 +7,7 @@ export default function TermsPage() {
       <React.Fragment>
         <div className="max-md:mx-6">
           <div className="text-center text-midblack max-md:py-8 py-20">
-            <div className="text-xxlg max-md:text-xl max-md:pb-4 font-['reg'] pb-8">
+            <div className="text-xxl max-md:text-xl max-md:pb-4 font-['reg'] pb-8">
               Terms and Conditions
             </div>
           </div>
