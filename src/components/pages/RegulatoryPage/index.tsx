@@ -18,7 +18,7 @@ export default function RegulatoryPage() {
               Is your investment in an LLP regulated by the FCA?
             </div>
 
-            <div>
+            <p>
               Your interest in an LLP, and our involvement in arranging for you
               to acquire or sell your interests in the LLP, is not regulated by
               the FCA because this does not fall within the scope of financial
@@ -26,25 +26,25 @@ export default function RegulatoryPage() {
               under the FCA rules and do not have any cover from the Financial
               Ombudsman Scheme or the Financial Services Compensation Scheme in
               relation to your interest in an LLP.
-            </div>
-            <div>
+            </p>
+            <p>
               This is an important difference to other home finance products,
               such as a mortgage. This is because mortgages, and mortgage
               providers, are required to be regulated by the FCA. Wayhome is not
               supervised and regulated by the FCA, or subject to any FCA rules,
               in relation to these activities.
-            </div>
+            </p>
             <div className="text-lg max-md:text-base2 max-md:leading-tight max-md:pb-2 font-normal pt-6 pb-4">
               What about the insurance arrangements?
             </div>
 
-            <div>
+            <p>
               As mentioned above, Wayhome is not regulated by the FCA for the
               main part of its business, which relates to arranging for you to
               acquire or sell your interests in an LLP and activities associated
               with your interest in an LLP.
-            </div>
-            <div>
+            </p>
+            <p>
               However, as part of Wayhomes activities, we arrange buildings
               insurance on the properties we help people to buy. This very small
               part of our business falls within the scope of financial services
@@ -52,45 +52,45 @@ export default function RegulatoryPage() {
               the FCA in relation to arranging insurance policies only (FRN
               902968). Wayhome is not authorised and regulated by the FCA for
               any other aspect of our business.
-            </div>
+            </p>
             <div className="text-lg max-md:text-base2 max-md:leading-tight max-md:pb-2 font-normal pt-6 pb-4">
               Is my investment in an LLP protected by the Financial Ombudsman
               Service and the Financial Services Compensation Scheme?
             </div>
 
-            <div>No.</div>
-            <div>
+            <p>No.</p>
+            <p>
               As the LLP is an unregulated product, you do not have any
               protection from the Financial Ombudsman Scheme or the Financial
               Services Compensation Scheme in relation to your interest in an
               LLP. Again, this is different to a mortgage, and a mortgage
               provider, which fall within the scope of the Financial Ombudsman
               Scheme or the Financial Services Compensation Scheme.
-            </div>
+            </p>
             <div className="text-lg max-md:text-base2 max-md:leading-tight max-md:pb-2 font-normal pt-6 pb-4">
               Is Wayhome part of The Property Redress Scheme?
             </div>
-            <div>Yes.</div>
-            <div>
+            <p>Yes.</p>
+            <p>
               Wayhome is also a member of The Property Redress Scheme
               (membership number PRS025713), which covers our activities in
               relation to the purchase of your home, the setting up and
               management of your tenancy and the management of maintenance of
               your home.
-            </div>
-            <div>
+            </p>
+            <p>
               If you have issues related to your experience with us, or when
               living in a Wayhome property, then Wayhome has signed up to The
               Property Redress Scheme which is a government authorised
               independent organisation that handle complaints for the property
               industry.
-            </div>
+            </p>
             <div className="text-lg max-md:text-base2 max-md:leading-tight max-md:pb-2 font-normal pt-6 pb-4">
               Does the RICS Dispute Resolution Service apply?
             </div>
-            <div>Yes.</div>
+            <p>Yes.</p>
 
-            <div>
+            <p>
               We only use qualified independent surveyors who are members of The
               Royal Institute of Chartered Surveyors (RICS) for property and
               rental valuations. This means that any complaints arising about a
@@ -99,8 +99,8 @@ export default function RegulatoryPage() {
               Dispute Resolution Service is the worlds oldest and largest
               provider of alternative dispute resolution services (ADRs) in the
               land, property and construction industries.
-            </div>
-            <div>
+            </p>
+            <p>
               One of the services offered is the RICS Consumer Mediation Scheme
               which can be used to resolve disputes between a business and a
               consumer. Following an application, RICS will nominate an
@@ -110,7 +110,7 @@ export default function RegulatoryPage() {
               (costs as at June 2020). The RICS Consumer Mediation Scheme also
               offers a helpline providing free advice from a chartered surveyor
               for any party who is not professionally represented.
-            </div>
+            </p>
           </div>
         </div>
       </React.Fragment>

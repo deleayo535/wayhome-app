@@ -14,51 +14,51 @@ export default function PrivacyPage() {
         </div>
         <div className="w-3/5 max-md:w-full">
           <div className="mx-12 max-md:mx-4 pb-16 text-smx max-md:text-sm text-midblack max-md:space-y-2 space-y-6">
-            <div>
+            <p>
               By registering with Wayhome, you are providing personal data which
               we strive to protect. We promise to never sell your data and
               always respect your marketing choices.
-            </div>
-            <div>
+            </p>
+            <p>
               Your privacy is protected by law, and it is also protected by our
               privacy policy. This page gives you an idea of how we collect your
               information, why we collect it, and how we process it.
-            </div>
+            </p>
             <div className="text-xlg max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4">
               Contact details
             </div>
-            <div>Please note that Wayhome is a trading name of:</div>
-            <div>
+            <p>Please note that Wayhome is a trading name of:</p>
+            <p>
               Unmortgage Ltd, a private company registered in England and Wales
               under registration number 10395239 and with a registered office at
-            </div>
-            <div>and:</div>
-            <div>
+            </p>
+            <p>and:</p>
+            <p>
               Unmortgage Arrangers Limited, a private company registered in
               England and Wales under registration number 11842567 and with a
               registered office at 5th Floor 1 Poultry
-            </div>
-            <div>
+            </p>
+            <p>
               Please note that references on this page to our, we and us have
               the meaning of Unmortgage Ltd and its subsidiaries
-            </div>
-            <div>
+            </p>
+            <p>
               Unmortgage Ltd is the data controller unless otherwise specified.
               You can contact Unmortgage Ltd using this address:
-            </div>
+            </p>
             <div className="pb-6">
-              <div>Wayhome (Unmortgage Ltd)</div>
-              <div>1 Poultry</div>
-              <div>Lagos</div>
-              <div>EC2R 8EJ</div>
+              <p>Wayhome (Unmortgage Ltd)</p>
+              <p>1 Poultry</p>
+              <p>Lagos</p>
+              <p>EC2R 8EJ</p>
             </div>
             <div className="text-xlg max-md:leading-8 max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4">
               How we receive information
             </div>
-            <div>
+            <p>
               Most of the personal information we process is provided to us
               directly by you for one of the following reasons:
-            </div>
+            </p>
             <div className="space-y-4">
               {/* <ul> */}
               <li>You have made an enquiry about our product</li>
@@ -74,18 +74,18 @@ export default function PrivacyPage() {
               </li>
               {/* </ul> */}
             </div>
-            <div>
+            <p>
               We also use cookies to collect other information and help us
               analyse the performance of our website and service.
-            </div>
+            </p>
             <div className="text-xlg max-md:leading-8 max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4">
               What information we collect
             </div>
-            <div>
+            <p>
               Personal data—or personal information—is any information about an
               individual that can identify them.
-            </div>
-            <div>We collect:</div>
+            </p>
+            <p>We collect:</p>
             <div className="space-y-4">
               <li>
                 Identity Data including your first name, last name, current and
@@ -126,30 +126,30 @@ export default function PrivacyPage() {
                 updates from us.
               </li>
             </div>
-            <div>
+            <p>
               We might also keep other information that we categorise as
               sensitive personal data.
-            </div>
-            <div>
+            </p>
+            <p>
               We will not usually ask for sensitive personal data. We will only
               ask if we think it is causing a difficulty with your account. For
               example, if you are struggling due to illness. We will always
               explain why we are asking for it and how
-            </div>
-            <div>
+            </p>
+            <p>
               Sensitive personal data is given higher protections. We cant share
               this information outside the company without your permission. And,
               its only shared with team members that absolutely need to see it
               to perform their job.
-            </div>
+            </p>
             <div className="text-xlg max-md:leading-8 max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4">
               How we might use your information
             </div>
-            <div>
+            <p>
               We use this information to qualify you as a potential Wayhome
               customer and to help you buy a home.
-            </div>
-            <div>We might use your information to:</div>
+            </p>
+            <p>We might use your information to:</p>
             <div>
               <li>help us work out if we might be right for you</li>
               <li>help us work out which homes might be suitable for you</li>
@@ -169,7 +169,7 @@ export default function PrivacyPage() {
             <div className="text-xlg max-md:leading-8 max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4">
               How we might contact you
             </div>
-            <div>We might contact you:</div>
+            <p>We might contact you:</p>
 
             <div>
               <li>
@@ -206,29 +206,29 @@ export default function PrivacyPage() {
             <div className="text-xlg max-md:text-base2 max-md:pb-0 font-normal pt-6 pb-4">
               Credit reference checks
             </div>
-            <div>
+            <p>
               As part of our process, we may do credit and identity checks with
               one or more credit reference agencies (CRAs).
-            </div>
-            <div>
+            </p>
+            <p>
               We submit your personal information to the CRAs. They send back
               information based on your credit application including things
               about your financial situation and financial history.
-            </div>
-            <div>
+            </p>
+            <p>
               To process your application, we might do credit and identity
               checks with our credit check partners, Experian. If you become a
               Wayhome customer we may also do regular checks in the future to
               manage your account.
-            </div>
-            <div>
+            </p>
+            <p>
               To do a credit check we ask you for some information which we
               process with Experian. They give us information about your
               financial situation, your financial history, shared credit, and
               fraud prevention. They also give us public information like
               whether you are on the electoral register.
-            </div>
-            <div>We use this information to:</div>
+            </p>
+            <p>We use this information to:</p>
 
             <div>
               <li> access whether you are creditworthy</li>
@@ -243,17 +243,17 @@ export default function PrivacyPage() {
               <li>
                 make sure we only provide help appropriate to your circumstances
               </li>
-              <div>
-                When we process your details with Experian, they place a search
-                footprint on your credit file which cant be seen by other
-                organisations.
-              </div>
-              <div>
-                We may use this information to work out whether Wayhome is
-                suitable for you and to verify the accuracy of the data you have
-                provided.
-              </div>
             </div>
+            <p>
+              When we process your details with Experian, they place a search
+              footprint on your credit file which cant be seen by other
+              organisations.
+            </p>
+            <p>
+              We may use this information to work out whether Wayhome is
+              suitable for you and to verify the accuracy of the data you have
+              provided.
+            </p>
           </div>
         </div>
       </React.Fragment>
